@@ -4,6 +4,10 @@
     {
       "id": "createfood:caramel_bucket",
       "required": false
+    },
+    {
+      "id": "create_dd:caramel_bucket",
+      "required": false
     }
   ]
 }

@@ -832,6 +832,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isDonutSugarEnabled = true;
+    @Comment("Enable Dumpling Wrappers.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDumplingWrappersEnabled = true;
     @Comment("Enable Egg Powder.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1653,7 +1657,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Gui.RequiresRestart
     public boolean isYogurtBottleEnabled = true;
 
-//Blocks
+// Blocks
 
     @Comment("Enable Apple Cheesecake.")
     @ConfigEntry.Category("CreateFoodBlock")
@@ -2053,7 +2057,8 @@ public class ModConfig implements ConfigData
     public boolean isYellowGelatinDessertBlockEnabled = true;
 
 
-    // Fluids
+// Fluids
+
     @Comment("Enable Apple Cream Frosting Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart
@@ -2388,6 +2393,7 @@ public class ModConfig implements ConfigData
     public boolean isYogurtFluidEnabled = true;
 
 // Farmer's Delight
+
     @Comment("Enable Beef Bun (Bacon, Lettuce).")
     @ConfigEntry.Category("Farmer'sDelight")
     @ConfigEntry.Gui.RequiresRestart
@@ -2597,7 +2603,7 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSlicedTomatoEnabled = true;
 
-    // Expanded Delight
+// Expanded Delight
 
     @Comment("Enable Bread Slice (Peanut Butter).")
     @ConfigEntry.Category("ExpandedDelight")

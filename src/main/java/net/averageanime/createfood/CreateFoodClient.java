@@ -45,6 +45,7 @@ public class CreateFoodClient implements ClientModInitializer {
             ResourceManagerHelper.registerBuiltinResourcePack(asId("ends_delight"), container, ResourcePackActivationType.NORMAL);
             ResourceManagerHelper.registerBuiltinResourcePack(asId("cultural_delight"), container, ResourcePackActivationType.NORMAL);
             ResourceManagerHelper.registerBuiltinResourcePack(asId("ubes_delight"), container, ResourcePackActivationType.NORMAL);
+            ResourceManagerHelper.registerBuiltinResourcePack(asId("rustic_delight"), container, ResourcePackActivationType.NORMAL);
         });
 
 // Food Effect Tooltips

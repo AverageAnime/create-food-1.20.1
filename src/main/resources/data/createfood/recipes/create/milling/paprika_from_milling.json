@@ -9,7 +9,7 @@
         {
             "condition": "fabric:tags_populated",
             "values": [
-                "c:chili_pepper",
+                "c:paprika_pepper",
                 "c:paprika"
             ]
         }
@@ -17,7 +17,7 @@
     "type": "create:milling",
     "ingredients": [
         {
-            "tag": "c:chili_pepper"
+            "tag": "c:paprika_pepper"
         }
     ],
     "processingTime": 80,

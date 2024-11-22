@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:butterscotch_milkshake_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_chip_milkshake_bottle",
+      "required": false
+    }
+  ]
+}

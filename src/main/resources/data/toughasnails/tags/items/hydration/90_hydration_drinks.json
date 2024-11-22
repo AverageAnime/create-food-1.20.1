@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:toffee_milkshake_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate_chip_milkshake_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_milkshake_bottle",
+      "required": false
+    }
+  ]
+}

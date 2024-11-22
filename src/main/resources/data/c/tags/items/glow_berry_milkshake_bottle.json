@@ -4,6 +4,10 @@
     {
       "id": "createfood:glow_berry_milkshake_bottle",
       "required": false
+    },
+    {
+      "id": "create_dd:glow_berry_milkshake",
+      "required": false
     }
   ]
 }

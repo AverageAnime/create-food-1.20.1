@@ -1,4 +1,6 @@
 {
+  "item.createfood.dumpling_wrappers": "Dumpling Wrappers",
+  "text.autoconfig.createfood.option.isDumpingWrappersEnabled": "Enable Dumpling Wrappers",
   "item.createfood.chocolate_cream_cake_slice_toffee": "Slice of Chocolate Cream Cake (Toffee Chips)",
   "item.createfood.chocolate_cream_cake_slice_butterscotch": "Slice of Chocolate Cream Cake (Butterscotch Chips)",
   "item.createfood.chocolate_cream_cake_slice_caramel": "Slice of Chocolate Cream Cake (Caramel Chips)",

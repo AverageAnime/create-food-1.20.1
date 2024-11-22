@@ -2061,6 +2061,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DRIEDCOFFEEBEANS));
         }
 
+// Dumpling Wrappers
+
+        if (CONFIG.isDumplingWrappersEnabled) {
+            final Item DUMPLING_WRAPPERS = registerItem("dumpling_wrappers", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DUMPLING_WRAPPERS));
+        }
+
 // Egg Powder
 
         if (CONFIG.isEggPowderEnabled) {

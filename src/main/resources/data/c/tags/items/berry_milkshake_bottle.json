@@ -8,6 +8,10 @@
     {
       "id": "beachparty:sweetberry_milkshake",
       "required": false
+    },
+    {
+      "id": "create_dd:strawberry_milkshake",
+      "required": false
     }
   ]
 }

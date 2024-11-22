@@ -8,6 +8,10 @@
     {
       "id": "farmersdelight:beef_patty",
       "required": false
+    },
+    {
+      "id": "vegandelight:tofu_patty",
+      "required": false
     }
   ]
 }
