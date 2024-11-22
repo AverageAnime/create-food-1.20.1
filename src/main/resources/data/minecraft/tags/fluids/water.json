@@ -2,35 +2,35 @@
   "replace": false,
   "values": [
     {
-      "id": "createfood:flowing_chorus_fruit_pie_filling_filling",
+      "id": "createfood:flowing_chorus_fruit_pie_filling",
       "required": false
     },
     {
-      "id": "createfood:chorus_fruit_pie_filling_filling",
+      "id": "createfood:chorus_fruit_pie_filling",
       "required": false
     },
     {
-      "id": "createfood:flowing_glow_berry_pie_filling_filling",
+      "id": "createfood:flowing_glow_berry_pie_filling",
       "required": false
     },
     {
-      "id": "createfood:glow_berry_pie_filling_filling",
+      "id": "createfood:glow_berry_pie_filling",
       "required": false
     },
     {
-      "id": "createfood:flowing_berry_pie_filling_filling",
+      "id": "createfood:flowing_berry_pie_filling",
       "required": false
     },
     {
-      "id": "createfood:berry_pie_filling_filling",
+      "id": "createfood:berry_pie_filling",
       "required": false
     },
     {
-      "id": "createfood:flowing_apple_pie_filling_filling",
+      "id": "createfood:flowing_apple_pie_filling",
       "required": false
     },
     {
-      "id": "createfood:apple_pie_filling_filling",
+      "id": "createfood:apple_pie_filling",
       "required": false
     },
     {

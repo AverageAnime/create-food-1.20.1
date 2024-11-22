@@ -1,0 +1,22 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:dumpling_wrappers"
+            ]
+        }
+    ],
+    "type": "create:splashing",
+    "ingredients": [
+        {
+            "tag": "c:foods/doughs"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "item": "createfood:dumpling_wrappers"
+        }
+    ]
+}

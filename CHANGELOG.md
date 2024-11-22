@@ -1,3 +1,28 @@
+### ***1.1.5***
+
+General:
+
+* New item Dumpling Wrappers.
+* Compatibility tags added for:
+  * Tough As Nails [(#43)](https://github.com/AverageAnime/create-food/issues/43)
+  * Rustic Delight
+  * Vegan Delight
+  * Dumplings Delight
+  * Create: Dreams & Desires
+* Resource pack for Rustic Delight.
+  * Animated textures for coffees.
+
+
+Fabric:
+* Change creative tab icon. 
+* Fix pie filling fluids.
+
+Forge:
+* Compatibility tags added for:
+  * Create: Confectionery
+  * Create: Factory
+  * Create: Gourmet
+
 ### ***1.1.4***
 
 General:

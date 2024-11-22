@@ -4,6 +4,10 @@
     {
       "id": "createfood:hot_chocolate_bucket",
       "required": false
+    },
+    {
+      "id": "create_dd:hot_chocolate_bucket",
+      "required": false
     }
   ]
 }

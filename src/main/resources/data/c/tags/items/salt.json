@@ -12,6 +12,10 @@
     {
       "id": "meadow:alpine_salt",
       "required": false
+    },
+    {
+      "id": "vegandelight:salt",
+      "required": false
     }
   ]
 }

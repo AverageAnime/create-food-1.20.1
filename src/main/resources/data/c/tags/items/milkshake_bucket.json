@@ -4,6 +4,10 @@
     {
       "id": "createfood:milkshake_bucket",
       "required": false
+    },
+    {
+      "id": "create_dd:vanilla_milkshake_bucket",
+      "required": false
     }
   ]
 }

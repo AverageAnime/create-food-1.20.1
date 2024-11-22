@@ -4,6 +4,10 @@
     {
       "id": "createfood:berry_milkshake_bucket",
       "required": false
+    },
+    {
+      "id": "create_dd:strawberry_milkshake_bucket",
+      "required": false
     }
   ]
 }

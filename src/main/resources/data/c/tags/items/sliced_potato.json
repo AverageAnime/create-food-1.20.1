@@ -8,6 +8,10 @@
     {
       "id": "casualnessdelight:potato_slice",
       "required": false
+    },
+    {
+      "id": "rusticdelight:potato_slices",
+      "required": false
     }
   ]
 }

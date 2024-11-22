@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:berry_jam_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_jam_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:milkshake_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_chip_milkshake_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:butterscotch_chip_milkshake_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:toffee_chip_milkshake_bottle",
+      "required": false
+    }
+  ]
+}

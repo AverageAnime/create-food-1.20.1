@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-  "layer0": "createfood:item/icon"
+  "layer0": "createfood:item/breakfast_plate"
   }
 }

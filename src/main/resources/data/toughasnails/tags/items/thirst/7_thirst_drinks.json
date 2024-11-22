@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:apple_juice_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:melon_jam_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_milkshake_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_chip_milkshake_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_chip_milkshake_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate_chip_milkshake_bottle",
+      "required": false
+    }
+  ]
+}

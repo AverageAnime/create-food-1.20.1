@@ -1,0 +1,42 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:dumpling_wrappers"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+        {
+            "tag": "c:dumpling_wrappers"
+        },
+        {
+            "tag": "c:crops/cabbage"
+        },
+        {
+            "tag": "c:onion"
+        },
+        [
+            {
+                "tag": "c:foods/raw_meats/raw_chicken"
+            },
+            {
+                "tag": "c:foods/raw_meats/raw_pork"
+            },
+            {
+                "tag": "c:foods/raw_meats/raw_beef"
+            },
+            {
+                "item": "minecraft:brown_mushroom"
+            }
+        ]
+    ],
+    "result": {
+        "count": 2,
+        "item": "farmersdelight:dumplings"
+    }
+}
