@@ -7,22 +7,20 @@
             ]
         }
     ],
-    "type": "minecraft:crafting_shaped",
-    "key": {
-        "-": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
             "item": "minecraft:stick"
         },
-        "i": {
+        {
             "item": "minecraft:ice"
         },
-        "a": {
+        {
+            "item": "minecraft:ice"
+        },
+        {
             "tag": "c:apple"
         }
-    },
-    "pattern": [
-        "   ",
-        "ia ",
-        "-i "
     ],
     "result": {
         "item": "createfood:apple_popsicle"
