@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "amount": 20250,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    },
+    {
+      "amount": 20250,
+      "fluidTag": "c:milk"
+    }
+  ],
+  "results": [
+    {
+      "amount": 40500,
+      "fluid": "create:tea"
+    }
+  ]
+}
