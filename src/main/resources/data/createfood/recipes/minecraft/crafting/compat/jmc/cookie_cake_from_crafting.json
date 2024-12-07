@@ -23,8 +23,7 @@
             "tag": "c:cookie_crumbs"
         }
     ],
-    "result":
-        {
-            "item": "jmc:cookie_cake"
-        }
+    "result": {
+        "item": "jmc:cookie_cake"
+    }
 }

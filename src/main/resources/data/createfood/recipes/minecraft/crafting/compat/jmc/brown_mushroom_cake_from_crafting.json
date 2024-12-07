@@ -22,8 +22,7 @@
             "item": "minecraft:brown_mushroom"
         }
     ],
-    "result":
-        {
-            "item": "jmc:brown_mushroom_cake"
-        }
+    "result": {
+        "item": "jmc:brown_mushroom_cake"
+    }
 }

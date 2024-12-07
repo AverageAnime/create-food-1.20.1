@@ -22,8 +22,7 @@
             "item": "minecraft:slime_ball"
         }
     ],
-    "result":
-        {
-            "item": "jmc:slime_cake"
-        }
+    "result": {
+        "item": "jmc:slime_cake"
+    }
 }

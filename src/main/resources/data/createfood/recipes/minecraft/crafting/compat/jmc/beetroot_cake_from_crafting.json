@@ -22,8 +22,7 @@
             "item": "minecraft:beetroot"
         }
     ],
-    "result":
-        {
-            "item": "jmc:beetroot_cake"
-        }
+    "result": {
+        "item": "jmc:beetroot_cake"
+    }
 }

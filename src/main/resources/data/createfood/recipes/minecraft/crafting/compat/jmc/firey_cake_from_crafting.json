@@ -22,8 +22,7 @@
             "item": "minecraft:magma_cream"
         }
     ],
-    "result":
-        {
-            "item": "jmc:firey_cake"
-        }
+    "result": {
+        "item": "jmc:firey_cake"
+    }
 }

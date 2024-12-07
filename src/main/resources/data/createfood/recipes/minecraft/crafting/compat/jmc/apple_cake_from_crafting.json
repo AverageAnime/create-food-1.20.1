@@ -22,8 +22,7 @@
             "tag": "c:apple"
         }
     ],
-    "result":
-        {
-            "item": "jmc:apple_cake"
-        }
+    "result": {
+        "item": "jmc:apple_cake"
+    }
 }

@@ -22,8 +22,7 @@
             "tag": "c:chorus_fruit"
         }
     ],
-    "result":
-        {
-            "item": "jmc:chorus_cake"
-        }
+    "result": {
+        "item": "jmc:chorus_cake"
+    }
 }
