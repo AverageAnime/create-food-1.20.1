@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_cheese_pizza",
+                "c:breakfast_sausages",
+                "c:raw_sausage_pizza"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:breakfast_sausages"
+        },
+        "2": {
+            "tag": "c:raw_cheese_pizza"
+        }
+    },
+    "result": {
+        "item": "createfood:raw_sausage_pizza"
+    }
+}

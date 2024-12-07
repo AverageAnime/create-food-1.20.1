@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:marshmallow",
+                "c:marshmallow_stick"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:marshmallow"
+        },
+        "2": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "createfood:marshmallow_stick"
+    }
+}

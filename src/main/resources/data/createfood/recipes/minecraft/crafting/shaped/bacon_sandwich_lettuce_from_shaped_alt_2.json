@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_slice_bacon",
+                "c:bread_slice_lettuce",
+                "c:bacon_sandwich_lettuce"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:bread_slice_lettuce"
+        },
+        "2": {
+            "tag": "c:bread_slice_bacon"
+        }
+    },
+    "result": {
+        "item": "createfood:bacon_sandwich_lettuce"
+    }
+}

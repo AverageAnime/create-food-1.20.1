@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate_fish",
+                "c:squid_ink_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:squid_ink_bucket"
+        },
+        "2": {
+            "tag": "c:pasta_plate_fish"
+        }
+    },
+    "result": {
+        "item": "farmersdelight:squid_ink_pasta"
+    }
+}

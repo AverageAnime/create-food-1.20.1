@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:magma_cream_marshmallow",
+                "c:magma_cream_marshmallow_stick"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:magma_cream_marshmallow"
+        },
+        "2": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "createfood:magma_cream_marshmallow_stick"
+    }
+}

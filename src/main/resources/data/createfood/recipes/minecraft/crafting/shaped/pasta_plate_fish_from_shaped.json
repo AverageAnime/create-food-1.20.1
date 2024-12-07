@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate",
+                "c:pasta_plate_fish"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:cooked_fishes"
+        },
+        "2": {
+            "tag": "c:pasta_plate"
+        }
+    },
+    "result": {
+        "item": "createfood:pasta_plate_fish"
+    }
+}

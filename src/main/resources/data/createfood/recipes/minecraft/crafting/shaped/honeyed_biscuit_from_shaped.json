@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:biscuit",
+                "c:honeyed_biscuit"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:honey_bottle"
+        },
+        "2": {
+            "tag": "c:biscuit"
+        }
+    },
+    "result": {
+        "item": "createfood:honeyed_biscuit"
+    }
+}

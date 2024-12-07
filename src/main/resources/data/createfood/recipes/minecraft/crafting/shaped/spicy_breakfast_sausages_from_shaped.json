@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:breakfast_sausages",
+                "c:paprika",
+                "c:spicy_breakfast_sausages"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:paprika"
+        },
+        "2": {
+            "tag": "c:breakfast_sausages"
+        }
+    },
+    "result": {
+        "item": "createfood:spicy_breakfast_sausages"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:dragon_bun",
+                "c:dragon_bun_warped_fungus"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:warped_fungus"
+        },
+        "2": {
+            "tag": "c:dragon_bun"
+        }
+    },
+    "result": {
+        "item": "createfood:dragon_bun_warped_fungus"
+    }
+}

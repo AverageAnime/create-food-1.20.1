@@ -1,0 +1,26 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_lettuce_carrot"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:cooked_chicken"
+        },
+        "2": {
+            "tag": "c:bread_lettuce_carrot"
+        }
+    },
+    "result": {
+        "item": "farmersdelight:chicken_sandwich"
+    }
+}

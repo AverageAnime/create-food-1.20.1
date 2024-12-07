@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_roll_base",
+                "c:chocolate_cream_frosting",
+                "c:chocolate_frosted_sweet_roll"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:chocolate_cream_frosting"
+        },
+        "2": {
+            "tag": "c:sweet_roll_base"
+        }
+    },
+    "result": {
+        "item": "createfood:chocolate_frosted_sweet_roll"
+    }
+}

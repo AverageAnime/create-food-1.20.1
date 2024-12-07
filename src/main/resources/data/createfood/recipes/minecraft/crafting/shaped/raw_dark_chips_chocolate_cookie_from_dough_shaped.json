@@ -1,0 +1,29 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_sweet_dough",
+                "c:dark_chocolate_chips",
+                "c:raw_dark_chips_chocolate_cookie"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:dark_chocolate_chips"
+        },
+        "2": {
+            "tag": "c:chocolate_sweet_dough"
+        }
+    },
+    "result": {
+        "count": 8,
+        "item": "createfood:raw_dark_chips_chocolate_cookie"
+    }
+}

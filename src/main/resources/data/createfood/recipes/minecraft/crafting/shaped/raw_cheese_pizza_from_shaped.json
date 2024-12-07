@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pizza_dough_tomato_sauce",
+                "c:cheeses",
+                "c:raw_cheese_pizza"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:cheeses"
+        },
+        "2": {
+            "tag": "c:pizza_dough_tomato_sauce"
+        }
+    },
+    "result": {
+        "item": "createfood:raw_cheese_pizza"
+    }
+}

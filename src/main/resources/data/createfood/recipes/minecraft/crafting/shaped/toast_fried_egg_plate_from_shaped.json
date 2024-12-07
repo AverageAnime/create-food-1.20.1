@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:toast_plate",
+                "c:toast_fried_egg_plate"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:cooked_eggs"
+        },
+        "2": {
+            "tag": "c:toast_plate"
+        }
+    },
+    "result": {
+        "item": "createfood:toast_fried_egg_plate"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_cheesecake",
+                "c:raw_glow_berry_cheesecake"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:glow_berries"
+        },
+        "2": {
+            "tag": "c:raw_cheesecake"
+        }
+    },
+    "result": {
+        "item": "createfood:raw_glow_berry_cheesecake"
+    }
+}

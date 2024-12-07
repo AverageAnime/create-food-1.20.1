@@ -1,0 +1,26 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_fried_egg"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:cooked_eggs"
+        },
+        "2": {
+            "item": "minecraft:bread"
+        }
+    },
+    "result": {
+        "item": "createfood:bread_fried_egg"
+    }
+}

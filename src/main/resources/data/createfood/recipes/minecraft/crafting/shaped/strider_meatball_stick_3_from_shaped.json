@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:strider_meatball",
+                "c:strider_meatball_stick"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:strider_meatball"
+        },
+        "2": {
+            "item": "createfood:strider_meatball_stick_2"
+        }
+    },
+    "result": {
+        "item": "createfood:strider_meatball_stick_3"
+    }
+}

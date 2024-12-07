@@ -1,0 +1,26 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:honeyed_berries"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:honey_bottle"
+        },
+        "2": {
+            "item": "minecraft:sweet_berries"
+        }
+    },
+    "result": {
+        "item": "createfood:honeyed_berries"
+    }
+}

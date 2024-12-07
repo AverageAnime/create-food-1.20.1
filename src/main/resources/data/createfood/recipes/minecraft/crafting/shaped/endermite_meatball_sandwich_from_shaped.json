@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:small_endermite_meatballs",
+                "c:endermite_meatball_sandwich"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:small_endermite_meatballs"
+        },
+        "2": {
+            "item": "minecraft:bread"
+        }
+    },
+    "result": {
+        "item": "createfood:endermite_meatball_sandwich"
+    }
+}

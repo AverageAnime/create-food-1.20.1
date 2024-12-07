@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_sweet_roll_base",
+                "c:melon_cream_frosting",
+                "c:melon_cream_frosted_chocolate_sweet_roll"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:melon_cream_frosting"
+        },
+        "2": {
+            "tag": "c:chocolate_sweet_roll_base"
+        }
+    },
+    "result": {
+        "item": "createfood:melon_cream_frosted_chocolate_sweet_roll"
+    }
+}

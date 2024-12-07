@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_dough",
+                "c:raw_flesh_cookie"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "2": {
+            "tag": "c:sweet_dough"
+        }
+    },
+    "result": {
+        "count": 8,
+        "item": "createfood:raw_flesh_cookie"
+    }
+}

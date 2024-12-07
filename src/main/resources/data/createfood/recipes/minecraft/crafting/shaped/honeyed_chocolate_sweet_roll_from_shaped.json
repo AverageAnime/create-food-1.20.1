@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_sweet_roll_base",
+                "c:honeyed_chocolate_sweet_roll"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:honey_bottle"
+        },
+        "2": {
+            "tag": "c:chocolate_sweet_roll_base"
+        }
+    },
+    "result": {
+        "item": "createfood:honeyed_chocolate_sweet_roll"
+    }
+}

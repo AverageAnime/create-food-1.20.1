@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_slice_lettuce_tomato",
+                "c:bread_slice",
+                "c:vegetable_sandwich_lettuce_tomato"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:bread_slice"
+        },
+        "2": {
+            "tag": "c:bread_slice_lettuce_tomato"
+        }
+    },
+    "result": {
+        "item": "createfood:vegetable_sandwich_lettuce_tomato"
+    }
+}

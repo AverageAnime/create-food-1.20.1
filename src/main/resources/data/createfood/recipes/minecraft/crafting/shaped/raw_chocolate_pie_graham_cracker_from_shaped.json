@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_graham_cracker_pie_crust",
+                "c:raw_chocolate_pie_graham_cracker"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:chocolate_bucket"
+        },
+        "2": {
+            "tag": "c:raw_graham_cracker_pie_crust"
+        }
+    },
+    "result": {
+        "item": "createfood:raw_chocolate_pie_graham_cracker"
+    }
+}

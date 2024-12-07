@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:toast_slice",
+                "c:toast_plate"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:toast_slice"
+        },
+        "2": {
+            "item": "minecraft:bowl"
+        }
+    },
+    "result": {
+        "item": "createfood:toast_plate"
+    }
+}

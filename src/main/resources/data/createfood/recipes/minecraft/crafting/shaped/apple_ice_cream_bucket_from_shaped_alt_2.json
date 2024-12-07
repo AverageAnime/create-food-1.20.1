@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ice_cream_bucket",
+                "c:apple_ice_cream_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:apple"
+        },
+        "2": {
+            "tag": "c:ice_cream_bucket"
+        }
+    },
+    "result": {
+        "item": "createfood:apple_ice_cream_bucket"
+    }
+}

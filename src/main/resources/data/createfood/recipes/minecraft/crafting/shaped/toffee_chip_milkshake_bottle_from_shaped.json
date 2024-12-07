@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:milkshake",
+                "c:toffee_chips",
+                "c:toffee_chip_milkshake_bottle"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:toffee_chips"
+        },
+        "2": {
+            "tag": "c:milkshake"
+        }
+    },
+    "result": {
+        "item": "createfood:toffee_chip_milkshake_bottle"
+    }
+}

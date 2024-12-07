@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_sweet_dough",
+                "c:butter",
+                "c:raw_chocolate_pastry_base"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:butter"
+        },
+        "2": {
+            "tag": "c:chocolate_sweet_dough"
+        }
+    },
+    "result": {
+        "item": "createfood:raw_chocolate_pastry_base"
+    }
+}

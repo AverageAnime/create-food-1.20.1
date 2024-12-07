@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_slice_glow_berry_jam",
+                "c:bread_slice",
+                "c:glow_berry_jam_sandwich"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:bread_slice"
+        },
+        "2": {
+            "tag": "c:bread_slice_glow_berry_jam"
+        }
+    },
+    "result": {
+        "item": "createfood:glow_berry_jam_sandwich"
+    }
+}

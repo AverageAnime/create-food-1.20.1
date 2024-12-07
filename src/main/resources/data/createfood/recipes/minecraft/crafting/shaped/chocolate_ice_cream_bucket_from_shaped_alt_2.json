@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ice_cream_bucket",
+                "c:cocoa_powder",
+                "c:chocolate_ice_cream_bowl"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:cocoa_powder"
+        },
+        "2": {
+            "tag": "c:ice_cream_bucket"
+        }
+    },
+    "result": {
+        "item": "createfood:chocolate_ice_cream_bucket"
+    }
+}

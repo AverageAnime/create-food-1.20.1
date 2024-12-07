@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate_tomato_sauce",
+                "c:cooked_eggplant"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:cooked_eggplant"
+        },
+        "2": {
+            "tag": "c:pasta_plate_tomato_sauce"
+        }
+    },
+    "result": {
+        "item": "culturaldelights:fried_eggplant_pasta"
+    }
+}

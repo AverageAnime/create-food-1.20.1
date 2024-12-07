@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:graham_cracker_chocolate",
+                "c:marshmallow",
+                "c:graham_cracker_chocolate_marshmallow"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:marshmallow"
+        },
+        "2": {
+            "tag": "c:graham_cracker_chocolate"
+        }
+    },
+    "result": {
+        "item": "createfood:graham_cracker_chocolate_marshmallow"
+    }
+}

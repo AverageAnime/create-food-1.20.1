@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cheese_and_beef_bun_lettuce",
+                "c:bun",
+                "c:cheeseburger_lettuce"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:bun"
+        },
+        "2": {
+            "tag": "c:cheese_and_beef_bun_lettuce"
+        }
+    },
+    "result": {
+        "item": "createfood:cheeseburger_lettuce"
+    }
+}

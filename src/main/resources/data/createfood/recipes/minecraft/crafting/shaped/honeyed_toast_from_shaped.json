@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:toast",
+                "c:honeyed_toast"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:honey_bottle"
+        },
+        "2": {
+            "tag": "c:toast"
+        }
+    },
+    "result": {
+        "item": "createfood:honeyed_toast"
+    }
+}

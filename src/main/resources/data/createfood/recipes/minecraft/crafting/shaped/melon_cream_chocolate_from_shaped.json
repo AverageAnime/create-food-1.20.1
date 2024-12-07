@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:hollow_chocolate",
+                "c:melon_cream_frosting",
+                "c:melon_cream_chocolate"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:melon_cream_frosting"
+        },
+        "2": {
+            "tag": "c:hollow_chocolate"
+        }
+    },
+    "result": {
+        "item": "createfood:melon_cream_chocolate"
+    }
+}

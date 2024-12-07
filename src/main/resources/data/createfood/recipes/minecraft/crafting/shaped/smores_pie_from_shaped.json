@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_pie_graham_cracker",
+                "c:marshmallow",
+                "c:smores_pie"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:marshmallow"
+        },
+        "2": {
+            "tag": "c:chocolate_pie_graham_cracker"
+        }
+    },
+    "result": {
+        "item": "createfood:smores_pie"
+    }
+}

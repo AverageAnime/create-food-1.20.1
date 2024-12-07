@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bun",
+                "c:chicken_patty",
+                "c:chicken_bun"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:chicken_patty"
+        },
+        "2": {
+            "tag": "c:bun"
+        }
+    },
+    "result": {
+        "item": "createfood:chicken_bun"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:gelatin_dessert_block",
+                "c:blue_gelatin_dessert_block"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:blue_dyes"
+        },
+        "2": {
+            "tag": "c:gelatin_dessert_block"
+        }
+    },
+    "result": {
+        "item": "createfood:blue_gelatin_dessert_block"
+    }
+}

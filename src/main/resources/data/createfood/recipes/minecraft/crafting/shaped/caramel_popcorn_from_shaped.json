@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:popcorn",
+                "c:caramel",
+                "c:caramel_popcorn"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:caramel"
+        },
+        "2": {
+            "tag": "c:popcorn"
+        }
+    },
+    "result": {
+        "item": "createfood:caramel_popcorn"
+    }
+}

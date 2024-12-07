@@ -1,0 +1,37 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:not",
+            "value": {
+                "condition": "fabric:any_mod_loaded",
+                "values": [
+                    "create"
+                ]
+            }
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pastry_base",
+                "c:vegetable_oil_bucket",
+                "c:donut_base"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:vegetable_oil_bucket"
+        },
+        "2": {
+            "tag": "c:pastry_base"
+        }
+    },
+    "result": {
+        "item": "createfood:donut_base"
+    }
+}

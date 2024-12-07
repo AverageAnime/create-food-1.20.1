@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:tortilla_chip_bowl",
+                "c:cheeses",
+                "c:nacho_bowl"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:cheeses"
+        },
+        "2": {
+            "tag": "c:tortilla_chip_bowl"
+        }
+    },
+    "result": {
+        "item": "createfood:nacho_bowl"
+    }
+}

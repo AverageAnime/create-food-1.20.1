@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ube_cake_base",
+                "c:ube_cream_frosting",
+                "c:ube_cream_frosted_ube_cake"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:ube_cream_frosting"
+        },
+        "2": {
+            "tag": "c:ube_cake_base"
+        }
+    },
+    "result": {
+        "item": "createfood:ube_cream_frosted_ube_cake"
+    }
+}

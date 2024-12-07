@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_slice_beetroot",
+                "c:bread_slice_beetroot_lettuce"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:salad_ingredients"
+        },
+        "2": {
+            "tag": "c:bread_slice_beetroot"
+        }
+    },
+    "result": {
+        "item": "createfood:bread_slice_beetroot_lettuce"
+    }
+}

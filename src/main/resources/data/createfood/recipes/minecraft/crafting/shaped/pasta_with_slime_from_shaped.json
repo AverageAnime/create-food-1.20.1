@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pasta_plate",
+                "c:slime_bucket",
+                "c:pasta_plate_slime"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:slime_bucket"
+        },
+        "2": {
+            "tag": "c:pasta_plate"
+        }
+    },
+    "result": {
+        "item": "createfood:pasta_plate_slime"
+    }
+}

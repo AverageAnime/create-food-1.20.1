@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:corn_flour",
+                "c:corn_dough"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:corn_flour"
+        },
+        "2": {
+            "tag": "c:eggs"
+        }
+    },
+    "result": {
+        "count": 3,
+        "item": "culturaldelights:corn_dough"
+    }
+}

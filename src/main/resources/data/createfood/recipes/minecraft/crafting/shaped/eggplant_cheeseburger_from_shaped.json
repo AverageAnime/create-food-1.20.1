@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cheese_and_eggplant_bun",
+                "c:bun",
+                "c:eggplant_cheeseburger"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:bun"
+        },
+        "2": {
+            "tag": "c:cheese_and_eggplant_bun"
+        }
+    },
+    "result": {
+        "item": "createfood:eggplant_cheeseburger"
+    }
+}

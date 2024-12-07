@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bun",
+                "c:dragon_patty",
+                "c:dragon_bun"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:dragon_patty"
+        },
+        "2": {
+            "tag": "c:bun"
+        }
+    },
+    "result": {
+        "item": "createfood:dragon_bun"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cheese_biscuit",
+                "c:biscuit",
+                "c:cheese_biscuit_sandwich"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:biscuit"
+        },
+        "2": {
+            "tag": "c:cheese_biscuit"
+        }
+    },
+    "result": {
+        "item": "createfood:cheese_biscuit_sandwich"
+    }
+}

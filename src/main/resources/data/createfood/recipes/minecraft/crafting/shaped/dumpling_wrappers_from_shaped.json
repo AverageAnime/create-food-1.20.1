@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:dumpling_wrappers"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:water_bucket"
+        },
+        "2": {
+            "tag": "c:foods/doughs"
+        }
+    },
+    "result": {
+        "count": 2,
+        "item": "createfood:dumpling_wrappers"
+    }
+}

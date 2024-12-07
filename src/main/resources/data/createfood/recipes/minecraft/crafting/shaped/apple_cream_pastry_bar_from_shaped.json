@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:pastry_bar_base",
+                "c:apple_cream_frosting",
+                "c:apple_cream_pastry_bar"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:apple_cream_frosting"
+        },
+        "2": {
+            "tag": "c:pastry_bar_base"
+        }
+    },
+    "result": {
+        "item": "createfood:apple_cream_pastry_bar"
+    }
+}

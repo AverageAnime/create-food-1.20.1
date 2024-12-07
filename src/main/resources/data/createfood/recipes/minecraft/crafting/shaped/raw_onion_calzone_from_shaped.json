@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_cheese_calzone",
+                "c:raw_onion_calzone"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " 1 ",
+        " 2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:onion"
+        },
+        "2": {
+            "tag": "c:raw_cheese_calzone"
+        }
+    },
+    "result": {
+        "item": "createfood:raw_onion_calzone"
+    }
+}

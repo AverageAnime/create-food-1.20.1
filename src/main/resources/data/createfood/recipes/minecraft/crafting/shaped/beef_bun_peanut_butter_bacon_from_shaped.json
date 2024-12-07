@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:beef_bun_peanut_butter",
+                "c:beef_bun_peanut_butter_bacon"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:cooked_pork"
+        },
+        "2": {
+            "tag": "c:beef_bun_peanut_butter"
+        }
+    },
+    "result": {
+        "item": "createfood:beef_bun_peanut_butter_bacon"
+    }
+}

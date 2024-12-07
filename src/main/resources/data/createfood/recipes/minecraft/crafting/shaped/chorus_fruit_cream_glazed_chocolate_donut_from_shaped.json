@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_donut_base",
+                "c:chorus_fruit_cream_frosting",
+                "c:chorus_fruit_cream_glazed_chocolate_donut"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:chorus_fruit_cream_frosting"
+        },
+        "2": {
+            "tag": "c:chocolate_donut_base"
+        }
+    },
+    "result": {
+        "item": "createfood:chorus_fruit_cream_glazed_chocolate_donut"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chicken_nuggets",
+                "c:chili_pepper",
+                "c:spicy_chicken_nuggets"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:chili_pepper"
+        },
+        "2": {
+            "tag": "c:chicken_nuggets"
+        }
+    },
+    "result": {
+        "item": "createfood:spicy_chicken_nuggets"
+    }
+}

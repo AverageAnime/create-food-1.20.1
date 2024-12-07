@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:hash_brown_fried_egg_plate",
+                "c:toast_slice",
+                "c:breakfast_plate"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:toast_slice"
+        },
+        "2": {
+            "tag": "c:hash_brown_fried_egg_plate"
+        }
+    },
+    "result": {
+        "item": "createfood:breakfast_plate"
+    }
+}

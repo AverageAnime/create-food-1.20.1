@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:beef_bun_onion_bacon",
+                "c:beef_bun_onion_bacon_lettuce"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:salad_ingredients"
+        },
+        "2": {
+            "tag": "c:beef_bun_onion_bacon"
+        }
+    },
+    "result": {
+        "item": "createfood:beef_bun_onion_bacon_lettuce"
+    }
+}

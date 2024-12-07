@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cinnamon_sweet_roll_base",
+                "c:cream_frosting",
+                "c:cinnamon_sweet_roll"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:cream_frosting"
+        },
+        "2": {
+            "tag": "c:cinnamon_sweet_roll_base"
+        }
+    },
+    "result": {
+        "item": "expandeddelight:sweet_roll"
+    }
+}

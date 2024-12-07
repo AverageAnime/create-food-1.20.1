@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:eggplant_bun",
+                "c:eggplant_bun_lettuce"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:salad_ingredients"
+        },
+        "2": {
+            "tag": "c:eggplant_bun"
+        }
+    },
+    "result": {
+        "item": "createfood:eggplant_bun_lettuce"
+    }
+}

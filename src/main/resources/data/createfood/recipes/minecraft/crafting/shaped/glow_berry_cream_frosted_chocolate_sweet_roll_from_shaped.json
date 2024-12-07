@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chocolate_sweet_roll_base",
+                "c:glow_berry_cream_frosting",
+                "c:glow_berry_cream_frosted_chocolate_sweet_roll"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:glow_berry_cream_frosting"
+        },
+        "2": {
+            "tag": "c:chocolate_sweet_roll_base"
+        }
+    },
+    "result": {
+        "item": "createfood:glow_berry_cream_frosted_chocolate_sweet_roll"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sweet_roll_base",
+                "c:caramel",
+                "c:caramel_glazed_sweet_roll"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:caramel"
+        },
+        "2": {
+            "tag": "c:sweet_roll_base"
+        }
+    },
+    "result": {
+        "item": "createfood:caramel_glazed_sweet_roll"
+    }
+}

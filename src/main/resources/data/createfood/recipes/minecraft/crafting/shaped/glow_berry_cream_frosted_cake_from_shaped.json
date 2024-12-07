@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cake_base",
+                "c:glow_berry_cream_frosting",
+                "c:glow_berry_cream_frosted_cake"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:glow_berry_cream_frosting"
+        },
+        "2": {
+            "tag": "c:cake_base"
+        }
+    },
+    "result": {
+        "item": "createfood:glow_berry_cream_frosted_cake"
+    }
+}

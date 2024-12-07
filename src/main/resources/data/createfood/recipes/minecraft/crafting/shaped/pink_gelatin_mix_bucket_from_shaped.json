@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:gelatin_mix_bucket",
+                "c:pink_gelatin_mix_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:pink_dyes"
+        },
+        "2": {
+            "tag": "c:gelatin_mix_bucket"
+        }
+    },
+    "result": {
+        "item": "createfood:pink_gelatin_mix_bucket"
+    }
+}

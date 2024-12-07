@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:bread_fried_egg",
+                "c:hash_browns",
+                "c:fried_egg_hash_brown_sandwich"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:hash_browns"
+        },
+        "2": {
+            "tag": "c:bread_fried_egg"
+        }
+    },
+    "result": {
+        "item": "createfood:fried_egg_hash_brown_sandwich"
+    }
+}

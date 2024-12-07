@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cloth_filter",
+                "c:cacao_mass_bucket",
+                "c:cloth_filter_cacao_mass"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:cacao_mass_bucket"
+        },
+        "2": {
+            "tag": "c:cloth_filter"
+        }
+    },
+    "result": {
+        "item": "createfood:cloth_filter_cacao_mass"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_mushroom_pizza",
+                "c:raw_mushroom_onion_pizza"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:onion"
+        },
+        "2": {
+            "tag": "c:raw_mushroom_pizza"
+        }
+    },
+    "result": {
+        "item": "createfood:raw_mushroom_onion_pizza"
+    }
+}

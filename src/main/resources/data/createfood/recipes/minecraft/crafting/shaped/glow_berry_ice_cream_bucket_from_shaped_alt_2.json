@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ice_cream_bucket",
+                "c:glow_berry_ice_cream_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:glow_berries"
+        },
+        "2": {
+            "tag": "c:ice_cream_bucket"
+        }
+    },
+    "result": {
+        "item": "createfood:glow_berry_ice_cream_bucket"
+    }
+}

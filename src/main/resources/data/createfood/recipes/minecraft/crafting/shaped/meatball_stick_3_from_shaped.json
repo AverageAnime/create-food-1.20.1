@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:meatball",
+                "c:meatball_stick"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:meatball"
+        },
+        "2": {
+            "item": "createfood:meatball_stick_2"
+        }
+    },
+    "result": {
+        "item": "createfood:meatball_stick_3"
+    }
+}
