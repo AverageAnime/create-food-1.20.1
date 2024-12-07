@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createfood:flowing_melon_ice_cream",
+            "required": false
+        },
+        {
+            "id": "createfood:melon_ice_cream",
+            "required": false
+        }
+    ]
+}

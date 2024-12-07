@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createfood:flowing_ice_cream",
+            "required": false
+        },
+        {
+            "id": "createfood:ice_cream",
+            "required": false
+        }
+    ]
+}

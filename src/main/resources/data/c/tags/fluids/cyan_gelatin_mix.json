@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createfood:flowing_cyan_gelatin_mix",
+            "required": false
+        },
+        {
+            "id": "createfood:cyan_gelatin_mix",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createfood:flowing_slime",
+            "required": false
+        },
+        {
+            "id": "createfood:slime",
+            "required": false
+        }
+    ]
+}

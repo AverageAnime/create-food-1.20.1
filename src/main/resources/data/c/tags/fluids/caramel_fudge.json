@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createfood:flowing_caramel_fudge",
+            "required": false
+        },
+        {
+            "id": "createfood:caramel_fudge",
+            "required": false
+        }
+    ]
+}

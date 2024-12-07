@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createfood:flowing_berry_jam",
+            "required": false
+        },
+        {
+            "id": "createfood:berry_jam",
+            "required": false
+        }
+    ]
+}

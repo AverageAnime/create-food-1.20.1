@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createfood:flowing_dark_chocolate",
+            "required": false
+        },
+        {
+            "id": "createfood:dark_chocolate",
+            "required": false
+        }
+    ]
+}

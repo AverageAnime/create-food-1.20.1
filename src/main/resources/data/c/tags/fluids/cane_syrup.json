@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createfood:flowing_cane_syrup",
+            "required": false
+        },
+        {
+            "id": "createfood:cane_syrup",
+            "required": false
+        }
+    ]
+}

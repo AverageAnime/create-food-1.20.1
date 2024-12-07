@@ -4,6 +4,10 @@
     {
       "id": "createfood:chorus_fruit_juice_bottle",
       "required": false
+    },
+    {
+      "id": "endersdelight:chorus_juice",
+      "required": false
     }
   ]
 }

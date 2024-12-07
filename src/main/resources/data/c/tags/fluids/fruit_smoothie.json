@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createfood:flowing_fruit_smoothie",
+            "required": false
+        },
+        {
+            "id": "createfood:fruit_smoothie",
+            "required": false
+        }
+    ]
+}

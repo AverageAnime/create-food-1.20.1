@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createfood:flowing_vinegar",
+            "required": false
+        },
+        {
+            "id": "createfood:vinegar",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createfood:flowing_pink_gelatin_mix",
+            "required": false
+        },
+        {
+            "id": "createfood:pink_gelatin_mix",
+            "required": false
+        }
+    ]
+}

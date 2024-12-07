@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createfood:flowing_chorus_fruit_cream_frosting",
+            "required": false
+        },
+        {
+            "id": "createfood:chorus_fruit_cream_frosting",
+            "required": false
+        }
+    ]
+}

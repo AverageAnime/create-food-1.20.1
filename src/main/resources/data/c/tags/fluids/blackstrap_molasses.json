@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createfood:flowing_blackstrap_molasses",
+            "required": false
+        },
+        {
+            "id": "createfood:blackstrap_molasses",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createfood:flowing_apple_milkshake",
+            "required": false
+        },
+        {
+            "id": "createfood:apple_milkshake",
+            "required": false
+        }
+    ]
+}

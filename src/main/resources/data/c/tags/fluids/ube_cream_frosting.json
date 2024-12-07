@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createfood:flowing_ube_cream_frosting",
+            "required": false
+        },
+        {
+            "id": "createfood:ube_cream_frosting",
+            "required": false
+        }
+    ]
+}

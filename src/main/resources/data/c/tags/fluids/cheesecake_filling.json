@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createfood:flowing_cheesecake_filling",
+            "required": false
+        },
+        {
+            "id": "createfood:cheesecake_filling",
+            "required": false
+        }
+    ]
+}
