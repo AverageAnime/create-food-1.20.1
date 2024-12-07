@@ -1,0 +1,20 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:salt_dough_small",
+                "c:raw_calzone"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:salt_dough_small"
+        }
+    ],
+    "result": {
+        "item": "createfood:raw_calzone"
+    }
+}

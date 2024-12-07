@@ -1,0 +1,31 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:sugar_dough_small",
+                "c:raw_cupcake"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+        {
+            "tag": "c:sugar_dough_small"
+        }
+    ],
+    "tool": {
+        "tag": "c:tools/knives"
+    },
+    "result": [
+        {
+            "item": "createfood:raw_cupcake"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:toffee_chips",
+                "c:raw_muffin",
+                "c:raw_toffee_chip_muffin"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:raw_muffin"
+        },
+        {
+            "tag": "c:toffee_chips"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:raw_toffee_chip_muffin"
+        }
+    ]
+}

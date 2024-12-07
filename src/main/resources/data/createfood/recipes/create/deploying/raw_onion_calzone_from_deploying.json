@@ -1,0 +1,31 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_calzone",
+                "c:raw_onion_calzone"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:raw_cheese_calzone"
+        },
+        {
+            "tag": "c:onion"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:raw_onion_calzone"
+        }
+    ]
+}

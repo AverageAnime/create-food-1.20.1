@@ -101,6 +101,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(APPLE_CREAM_FROSTED_CHOCOLATE_SWEET_ROLL));
         }
 
+// Apple Cream Frosted Cupcake
+
+        if (CONFIG.isAppleCreamFrostedCupcakeEnabled) {
+            final Item APPLE_CREAM_FROSTED_CUPCAKE = registerItem("apple_cream_frosted_cupcake", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.0f).statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(APPLE_CREAM_FROSTED_CUPCAKE));
+        }
+
 // Apple Cream Frosted Sweet Roll
 
         if (CONFIG.isAppleCreamFrostedSweetRollEnabled) {
@@ -162,6 +169,13 @@ public class ModItems {
         if (CONFIG.isAppleSliceEnabled) {
             final Item APPLE_SLICE = registerItem("apple_slice", new ConsumableItem(new Item.Settings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.4f).snack().build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(APPLE_SLICE));
+        }
+
+// Bacon Calzone
+
+        if (CONFIG.isBaconCalzoneEnabled) {
+            final Item BACON_CALZONE = registerItem("bacon_calzone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.4f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BACON_CALZONE));
         }
 
 // Bacon Pizza & Slice
@@ -371,6 +385,13 @@ public class ModItems {
         if (CONFIG.isBerryCreamFrostedChocolateSweetRollSweetBerryEnabled) {
             final Item BERRYCREAMFROSTEDCHOCOLATESWEETROLLSWEETBERRY = registerItem("berry_cream_frosted_chocolate_sweet_roll_sweet_berry", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.7f).statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 1200, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 1200, 0),1.0f).build()), true));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BERRYCREAMFROSTEDCHOCOLATESWEETROLLSWEETBERRY));
+        }
+
+// Berry Cream Frosted Cupcake
+
+        if (CONFIG.isBerryCreamFrostedCupcakeEnabled) {
+            final Item BERRY_CREAM_FROSTED_CUPCAKE = registerItem("berry_cream_frosted_cupcake", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.0f).statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BERRY_CREAM_FROSTED_CUPCAKE));
         }
 
 // Berry Cream Frosted Sweet Roll
@@ -699,11 +720,25 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BUTTERSCOTCHCHIPMILKSHAKEBOTTLE));
         }
 
+// Butterscotch Chip Muffin
+
+        if (CONFIG.isButterscotchChipMuffinEnabled) {
+            final Item BUTTERSCOTCH_CHIP_MUFFIN = registerItem("butterscotch_chip_muffin", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.8f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BUTTERSCOTCH_CHIP_MUFFIN));
+        }
+
 // Butter Dough
 
         if (CONFIG.isButterDoughEnabled) {
             final Item BUTTERDOUGH = registerItem("butter_dough", new ConsumableItem(new FabricItemSettings()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BUTTERDOUGH));
+        }
+
+// Butter Dough (Small)
+
+        if (CONFIG.isButterDoughSmallEnabled) {
+            final Item BUTTER_DOUGH_SMALL = registerItem("butter_dough_small", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BUTTER_DOUGH_SMALL));
         }
 
 // Butterscotch Fudge
@@ -791,6 +826,13 @@ public class ModItems {
         if (CONFIG.isCaramelChipMilkshakeBottleEnabled) {
             final Item CARAMELCHIPMILKSHAKEBOTTLE = registerItem("caramel_chip_milkshake_bottle", new BottleDrink(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(1.2f).statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 600, 0),1.0f).build()), true));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CARAMELCHIPMILKSHAKEBOTTLE));
+        }
+
+// Caramel Chip Muffin
+
+        if (CONFIG.isCaramelChipMuffinEnabled) {
+            final Item CARAMEL_CHIP_MUFFIN = registerItem("caramel_chip_muffin", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.9f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CARAMEL_CHIP_MUFFIN));
         }
 
 // Caramel Filled Chocolate
@@ -1132,6 +1174,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHEESEBURGERONIONLETTUCETOMATO));
         }
 
+// Cheese Calzone
+
+        if (CONFIG.isCheeseCalzoneEnabled) {
+            final Item CHEESE_CALZONE = registerItem("cheese_calzone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(0.4f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHEESE_CALZONE));
+        }
+
 // Cheese Pizza & Slice
 
         if (CONFIG.isCheesePizzaEnabled) {
@@ -1260,6 +1309,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATECHIPMILKSHAKEBOTTLE));
         }
 
+// Chocolate Chip Muffin
+
+        if (CONFIG.isChocolateChipMuffinEnabled) {
+            final Item CHOCOLATE_CHIP_MUFFIN = registerItem("chocolate_chip_muffin", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.8f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATE_CHIP_MUFFIN));
+        }
+
 // Chocolate Cookie
 
         if (CONFIG.isChocolateCookieEnabled) {
@@ -1333,6 +1389,13 @@ public class ModItems {
         if (CONFIG.isChocolateCreamFrostingBottleEnabled) {
             final Item CHOCOLATECREAMFROSTINGBOTTLE = registerItem("chocolate_cream_frosting_bottle", new BottleDrink(new Item.Settings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.3f).build()).maxCount(64)));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATECREAMFROSTINGBOTTLE));
+        }
+
+// Chocolate Cream Frosted Cupcake
+
+        if (CONFIG.isChocolateCreamFrostedCupcakeEnabled) {
+            final Item CHOCOLATE_CREAM_FROSTED_CUPCAKE = registerItem("chocolate_cream_frosted_cupcake", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.2f).statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 1200, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATE_CREAM_FROSTED_CUPCAKE));
         }
 
 // Chocolate Donut Base
@@ -1654,6 +1717,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHORUSFRUITCREAMFROSTEDCHOCOLATESWEETROLLCHORUSFRUIT));
         }
 
+// Chorus Fruit Cream Frosted Cupcake
+
+        if (CONFIG.isChorusFruitCreamFrostedCupcakeEnabled) {
+            final Item CHORUS_FRUIT_CREAM_FROSTED_CUPCAKE = registerItem("chorus_fruit_cream_frosted_cupcake", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(1.1f).statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHORUS_FRUIT_CREAM_FROSTED_CUPCAKE));
+        }
+
 // Chorus Fruit Cream Frosted Sweet Roll
 
         if (CONFIG.isChorusFruitCreamFrostedSweetRollEnabled) {
@@ -1893,6 +1963,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CREAMGLAZEDDONUT));
         }
 
+// Cupcake Base
+
+        if (CONFIG.isCupcakeBaseEnabled) {
+            final Item CUPCAKE_BASE = registerItem("cupcake_base", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.9f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CUPCAKE_BASE));
+        }
+
 // Dark Chips Chocolate Cookie
 
         if (CONFIG.isDarkChipsChocolateCookieEnabled) {
@@ -1919,6 +1996,13 @@ public class ModItems {
         if (CONFIG.isDarkChocolateChipsEnabled) {
             final Item DARKCHOCOLATECHIPS = registerItem("dark_chocolate_chips", new ConsumableItem(new FabricItemSettings()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DARKCHOCOLATECHIPS));
+        }
+
+// Dark Chocolate Chip Muffin
+
+        if (CONFIG.isDarkChocolateChipMuffinEnabled) {
+            final Item DARK_CHOCOLATE_CHIP_MUFFIN = registerItem("dark_chocolate_chip_muffin", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.9f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 1200, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DARK_CHOCOLATE_CHIP_MUFFIN));
         }
 
 // Dark Chocolate Covered Marshmallow Stick
@@ -2167,6 +2251,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ESPRESSOPOWDER));
         }
 
+// Fish Calzone
+
+        if (CONFIG.isFishCalzoneEnabled) {
+            final Item FISH_CALZONE = registerItem("fish_calzone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.4f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FISH_CALZONE));
+        }
+
 // Fish Pizza & Slice
 
         if (CONFIG.isFishPizzaEnabled) {
@@ -2213,6 +2304,13 @@ public class ModItems {
         if (CONFIG.isFruitSmoothieBottleEnabled) {
             final Item FRUITSMOOTHIEBOTTLE = registerItem("fruit_smoothie_bottle", new BottleDrink(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(1.8f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FRUITSMOOTHIEBOTTLE));
+        }
+
+// Frosted Cupcake
+
+        if (CONFIG.isFrostedCupcakeEnabled) {
+            final Item FROSTED_CUPCAKE = registerItem("frosted_cupcake", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.1f).statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FROSTED_CUPCAKE));
         }
 
 // Gelatin
@@ -2379,6 +2477,13 @@ public class ModItems {
         if (CONFIG.isGlowBerryCreamFrostedChocolateSweetRollGlowBerryEnabled) {
             final Item GLOWBERRYCREAMFROSTEDCHOCOLATESWEETROLLGLOWBERRY = registerItem("glow_berry_cream_frosted_chocolate_sweet_roll_glow_berry", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.7f).statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 1200, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 1200, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 1200, 0),1.0f).build()), true));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GLOWBERRYCREAMFROSTEDCHOCOLATESWEETROLLGLOWBERRY));
+        }
+
+// Glow Berry Cream Frosted Cupcake
+
+        if (CONFIG.isGlowBerryCreamFrostedCupcakeEnabled) {
+            final Item GLOW_BERRY_CREAM_FROSTED_CUPCAKE = registerItem("glow_berry_cream_frosted_cupcake", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.0f).statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GLOW_BERRY_CREAM_FROSTED_CUPCAKE));
         }
 
 // Glow Berry Cream Frosted Sweet Roll
@@ -2691,11 +2796,25 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(HONEYEDCHOCOLATEDONUT));
         }
 
+// Honeyed Cupcake
+
+        if (CONFIG.isHoneyedCupcakeEnabled) {
+            final Item HONEYED_CUPCAKE = registerItem("honeyed_cupcake", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(1.0f).statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(HONEYED_CUPCAKE));
+        }
+
 // Honeyed Donut
 
         if (CONFIG.isHoneyedDonutEnabled) {
             final Item HONEYEDDONUT = registerItem("honeyed_donut", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 1200, 0),1.0f).build()), true));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(HONEYEDDONUT));
+        }
+
+// Honeyed Muffin
+
+        if (CONFIG.isHoneyedMuffinEnabled) {
+            final Item HONEYED_MUFFIN = registerItem("honeyed_muffin", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.7f).statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(HONEYED_MUFFIN));
         }
 
 // Honeyed Sweet Roll
@@ -2971,6 +3090,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MELONCREAMFROSTEDCHOCOLATESWEETROLL));
         }
 
+// Melon Cream Frosted Cupcake
+
+        if (CONFIG.isMelonCreamFrostedCupcakeEnabled) {
+            final Item MELON_CREAM_FROSTED_CUPCAKE = registerItem("melon_cream_frosted_cupcake", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.1f).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MELON_CREAM_FROSTED_CUPCAKE));
+        }
+
 // Melon Cream Frosted Sweet Roll
 
         if (CONFIG.isMelonCreamFrostedSweetRollEnabled) {
@@ -3089,6 +3215,20 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MOLASSESBOTTLE));
         }
 
+// Muffin Base
+
+        if (CONFIG.isMuffinBaseEnabled) {
+            final Item MUFFIN_BASE = registerItem("muffin_base", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.7f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MUFFIN_BASE));
+        }
+
+// Mushroom Calzone
+
+        if (CONFIG.isMushroomCalzoneEnabled) {
+            final Item MUSHROOM_CALZONE = registerItem("mushroom_calzone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.6f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MUSHROOM_CALZONE));
+        }
+
 // Mushroom Pizza & Slice
 
         if (CONFIG.isMushroomPizzaEnabled) {
@@ -3144,6 +3284,13 @@ public class ModItems {
         if (CONFIG.isNachoBowlEnabled) {
             final Item NACHOBOWL = registerItem("nacho_bowl", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.9f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(NACHOBOWL));
+        }
+
+// Onion Calzone
+
+        if (CONFIG.isOnionCalzoneEnabled) {
+            final Item ONION_CALZONE = registerItem("onion_calzone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.5f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ONION_CALZONE));
         }
 
 // Onion Pizza & Slice
@@ -3367,6 +3514,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(PUMPERNICKELTOASTSLICE));
         }
 
+// Raw Bacon Calzone
+
+        if (CONFIG.isRawBaconCalzoneEnabled) {
+            final Item RAW_BACON_CALZONE = registerItem("raw_bacon_calzone", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_BACON_CALZONE));
+        }
+
 // Raw Butterscotch Chips Chocolate Cookie
 
         if (CONFIG.isRawButterscotchChipsChocolateCookieEnabled) {
@@ -3381,11 +3535,25 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWBUTTERSCOTCHCHIPSCOOKIE));
         }
 
+// Raw Butterscotch Chip Muffin
+
+        if (CONFIG.isRawButterscotchChipMuffinEnabled) {
+            final Item RAW_BUTTERSCOTCH_CHIP_MUFFIN = registerItem("raw_butterscotch_chip_muffin", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_BUTTERSCOTCH_CHIP_MUFFIN));
+        }
+
 // Raw Cake Base
 
         if (CONFIG.isRawCakeBaseEnabled) {
             final Item RAWCAKEBASE = registerItem("raw_cake_base", new ConsumableItem(new FabricItemSettings()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWCAKEBASE));
+        }
+
+// Raw Calzone
+
+        if (CONFIG.isRawCalzoneEnabled) {
+            final Item RAW_CALZONE = registerItem("raw_calzone", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_CALZONE));
         }
 
 // Raw Caramel Chips Chocolate Cookie
@@ -3402,11 +3570,25 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWCARAMELCHIPSCOOKIE));
         }
 
+// Raw Caramel Chip Muffin
+
+        if (CONFIG.isRawCaramelChipMuffinEnabled) {
+            final Item RAW_CARAMEL_CHIP_MUFFIN = registerItem("raw_caramel_chip_muffin", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_CARAMEL_CHIP_MUFFIN));
+        }
+
 // Raw Chocolate Cookie
 
         if (CONFIG.isRawChocolateCookieEnabled) {
             final Item RAWCHOCOLATECOOKIE = registerItem("raw_chocolate_cookie", new ConsumableItem(new FabricItemSettings()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWCHOCOLATECOOKIE));
+        }
+
+// Raw Chocolate Chip Muffin
+
+        if (CONFIG.isRawChocolateChipMuffinEnabled) {
+            final Item RAW_CHOCOLATE_CHIP_MUFFIN = registerItem("raw_chocolate_chip_muffin", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_CHOCOLATE_CHIP_MUFFIN));
         }
 
 // Raw Chocolate Pastry Bar Base
@@ -3437,6 +3619,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWCHORUSCOOKIE));
         }
 
+// Raw Cheese Calzone
+
+        if (CONFIG.isRawCheeseCalzoneEnabled) {
+            final Item RAW_CHEESE_CALZONE = registerItem("raw_cheese_calzone", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_CHEESE_CALZONE));
+        }
+
 // Raw Cinnamon Sweet Roll Base
 
         if (CONFIG.isRawCinnamonSweetRollBaseEnabled) {
@@ -3449,6 +3638,13 @@ public class ModItems {
         if (CONFIG.isRawCookieEnabled) {
             final Item RAWCOOKIE = registerItem("raw_cookie", new ConsumableItem(new FabricItemSettings()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWCOOKIE));
+        }
+
+// Raw Cupcake
+
+        if (CONFIG.isRawCupcakeEnabled) {
+            final Item RAW_CUPCAKE = registerItem("raw_cupcake", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_CUPCAKE));
         }
 
 // Raw Dark Chips Chocolate Cookie
@@ -3465,6 +3661,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWDARKCHIPSCOOKIE));
         }
 
+// Raw Dark Chocolate Chip Muffin
+
+        if (CONFIG.isRawDarkChocolateChipMuffinEnabled) {
+            final Item RAW_DARK_CHOCOLATE_CHIP_MUFFIN = registerItem("raw_dark_chocolate_chip_muffin", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_DARK_CHOCOLATE_CHIP_MUFFIN));
+        }
+
 // Raw Endermite Meatball
 
         if (CONFIG.isRawEndermiteMeatballEnabled) {
@@ -3477,6 +3680,13 @@ public class ModItems {
         if (CONFIG.isRawFleshCookieEnabled) {
             final Item RAWFLESHCOOKIE = registerItem("raw_flesh_cookie", new ConsumableItem(new FabricItemSettings()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWFLESHCOOKIE));
+        }
+
+// Raw Fish Calzone
+
+        if (CONFIG.isRawFishCalzoneEnabled) {
+            final Item RAW_FISH_CALZONE = registerItem("raw_fish_calzone", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_FISH_CALZONE));
         }
 
 // Raw Ginger Cookie
@@ -3542,6 +3752,27 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_MINI_GRAHAM_CRACKER_PIE_CRUST));
         }
 
+// Raw Muffin
+
+        if (CONFIG.isRawMuffinEnabled) {
+            final Item RAW_MUFFIN = registerItem("raw_muffin", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_MUFFIN));
+        }
+
+// Raw Mushroom Calzone
+
+        if (CONFIG.isRawMushroomCalzoneEnabled) {
+            final Item RAW_MUSHROOM_CALZONE = registerItem("raw_mushroom_calzone", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_MUSHROOM_CALZONE));
+        }
+
+// Raw Onion Calzone
+
+        if (CONFIG.isRawOnionCalzoneEnabled) {
+            final Item RAW_ONION_CALZONE = registerItem("raw_onion_calzone", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_ONION_CALZONE));
+        }
+
 // Raw Pastry Bar Base
 
         if (CONFIG.isRawPastryBarBaseEnabled) {
@@ -3554,6 +3785,13 @@ public class ModItems {
         if (CONFIG.isRawPastryBaseEnabled) {
             final Item RAWPASTRYBASE = registerItem("raw_pastry_base", new ConsumableItem(new FabricItemSettings()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWPASTRYBASE));
+        }
+
+// Raw Sausage Calzone
+
+        if (CONFIG.isRawSausageCalzoneEnabled) {
+            final Item RAW_SAUSAGE_CALZONE = registerItem("raw_sausage_calzone", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_SAUSAGE_CALZONE));
         }
 
 // Raw Sausage Patty
@@ -3625,6 +3863,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWTOFFEECHIPSCOOKIE));
         }
 
+// Raw Toffee Chip Muffin
+
+        if (CONFIG.isRawToffeeChipMuffinEnabled) {
+            final Item RAW_TOFFEE_CHIP_MUFFIN = registerItem("raw_toffee_chip_muffin", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_TOFFEE_CHIP_MUFFIN));
+        }
+
 // Raw Ube Cookie
 
         if (CONFIG.isRawUbeCookieEnabled) {
@@ -3651,6 +3896,13 @@ public class ModItems {
         if (CONFIG.isRawWhiteChipsCookieEnabled) {
             final Item RAWWHITECHIPSCOOKIE = registerItem("raw_white_chips_cookie", new ConsumableItem(new FabricItemSettings()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAWWHITECHIPSCOOKIE));
+        }
+
+// Raw White Chocolate Chip Muffin
+
+        if (CONFIG.isRawWhiteChocolateChipMuffinEnabled) {
+            final Item RAW_WHITE_CHOCOLATE_CHIP_MUFFIN = registerItem("raw_white_chocolate_chip_muffin", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(RAW_WHITE_CHOCOLATE_CHIP_MUFFIN));
         }
 
 // S'more
@@ -3682,6 +3934,12 @@ public class ModItems {
             final Item SALTDOUGH = registerItem("salt_dough", new ConsumableItem(new FabricItemSettings()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SALTDOUGH));
         }
+// Salt Dough (Small)
+
+        if (CONFIG.isSaltDoughSmallEnabled) {
+            final Item SALT_DOUGH_SMALL = registerItem("salt_dough_small", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SALT_DOUGH_SMALL));
+        }
 
 // Sausage Biscuit
 
@@ -3695,6 +3953,13 @@ public class ModItems {
         if (CONFIG.isSausageBiscuitSandwichEnabled) {
             final Item SAUSAGEBISCUITSANDWICH = registerItem("sausage_biscuit_sandwich", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(19).saturationModifier(0.4f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).build()), true));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SAUSAGEBISCUITSANDWICH));
+        }
+
+// Sausage Calzone
+
+        if (CONFIG.isSausageCalzoneEnabled) {
+            final Item SAUSAGE_CALZONE = registerItem("sausage_calzone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(7).saturationModifier(0.5f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SAUSAGE_CALZONE));
         }
 
 // Sausage Meat
@@ -3889,6 +4154,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SUGARDOUGH));
         }
 
+// Sugar Dough (Small)
+
+        if (CONFIG.isSugarDoughSmallEnabled) {
+            final Item SUGAR_DOUGH_SMALL = registerItem("sugar_dough_small", new ConsumableItem(new FabricItemSettings()));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(SUGAR_DOUGH_SMALL));
+        }
+
 // Sweet Roll Base
 
         if (CONFIG.isSweetRollBaseEnabled) {
@@ -3948,8 +4220,15 @@ public class ModItems {
 // Toffee Chip Milkshake
 
         if (CONFIG.isToffeeChipMilkshakeBottleEnabled) {
-            final Item TOFFEECHIPMILKSHAKEBOTTLE = registerItem("toffee_chip_milkshake_bottle", new BottleDrink(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(1.2f).build())));
+            final Item TOFFEECHIPMILKSHAKEBOTTLE = registerItem("toffee_chip_milkshake_bottle", new BottleDrink(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5).saturationModifier(1.2f).statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 600, 0),1.0f).build()), true));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(TOFFEECHIPMILKSHAKEBOTTLE));
+        }
+
+// Toffee Chip Muffin
+
+        if (CONFIG.isToffeeChipMuffinEnabled) {
+            final Item TOFFEE_CHIP_MUFFIN = registerItem("toffee_chip_muffin", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.9f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(TOFFEE_CHIP_MUFFIN));
         }
 
 // Toffee Fudge
@@ -4034,6 +4313,13 @@ public class ModItems {
         if (CONFIG.isWhiteChocolateChipsEnabled) {
             final Item WHITECHOCOLATECHIPS = registerItem("white_chocolate_chips", new ConsumableItem(new FabricItemSettings()));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(WHITECHOCOLATECHIPS));
+        }
+
+// White Chocolate Chip Muffin
+
+        if (CONFIG.isWhiteChocolateChipMuffinEnabled) {
+            final Item WHITE_CHOCOLATE_CHIP_MUFFIN = registerItem("white_chocolate_chip_muffin", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.9f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 1200, 0),1.0f).statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(WHITE_CHOCOLATE_CHIP_MUFFIN));
         }
 
 // White Chocolate Covered Marshmallow Stick

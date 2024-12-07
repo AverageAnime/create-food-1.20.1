@@ -1,0 +1,23 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_cheese_calzone",
+                "c:raw_mushroom_calzone"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:raw_cheese_calzone"
+        },
+        {
+            "tag": "c:mushrooms"
+        }
+    ],
+    "result": {
+        "item": "createfood:raw_mushroom_calzone"
+    }
+}

@@ -1,4 +1,131 @@
 {
+  "item.createfood.raw_calzone": "Raw Calzone",
+  "text.autoconfig.createfood.option.isRawCalzoneEnabled": "Enable Raw Calzone",
+
+  "item.createfood.bacon_calzone": "Bacon Calzone",
+  "text.autoconfig.createfood.option.isBaconCalzoneEnabled": "Enable Bacon Calzone",
+
+  "item.createfood.raw_bacon_calzone": "Raw Bacon Calzone",
+  "text.autoconfig.createfood.option.isRawBaconCalzoneEnabled": "Enable Raw Bacon Calzone",
+
+  "item.createfood.fish_calzone": "Fish Calzone",
+  "text.autoconfig.createfood.option.isFishCalzoneEnabled": "Enable Fish Calzone",
+
+  "item.createfood.raw_fish_calzone": "Raw Fish Calzone",
+  "text.autoconfig.createfood.option.isRawFishCalzoneEnabled": "Enable Raw Fish Calzone",
+
+  "item.createfood.onion_calzone": "Onion Calzone",
+  "text.autoconfig.createfood.option.isOnionCalzoneEnabled": "Enable Onion Calzone",
+
+  "item.createfood.raw_onion_calzone": "Raw Onion Calzone",
+  "text.autoconfig.createfood.option.isRawOnionCalzoneEnabled": "Enable Raw Onion Calzone",
+
+  "item.createfood.mushroom_calzone": "Mushroom Calzone",
+  "text.autoconfig.createfood.option.isMushroomCalzoneEnabled": "Enable Mushroom Calzone",
+
+  "item.createfood.raw_mushroom_calzone": "Raw Mushroom Calzone",
+  "text.autoconfig.createfood.option.isRawMushroomCalzoneEnabled": "Enable Raw Mushroom Calzone",
+
+  "item.createfood.sausage_calzone": "Sausage Calzone",
+  "text.autoconfig.createfood.option.isSausageCalzoneEnabled": "Enable Sausage Calzone",
+
+  "item.createfood.raw_sausage_calzone": "Raw Sausage Calzone",
+  "text.autoconfig.createfood.option.isRawSausageCalzoneEnabled": "Enable Raw Sausage Calzone",
+
+  "item.createfood.honeyed_cupcake": "Honeyed Cupcake",
+  "text.autoconfig.createfood.option.isHoneyedCupcakeEnabled": "Enable Honeyed Cupcake",
+
+  "item.createfood.frosted_cupcake": "Frosted Cupcake",
+  "text.autoconfig.createfood.option.isFrostedCupcakeEnabled": "Enable Frosted Cupcake",
+
+  "item.createfood.chocolate_cream_frosted_cupcake": "Chocolate Cream Frosted Cupcake",
+  "text.autoconfig.createfood.option.isChocolateCreamFrostedCupcakeEnabled": "Enable Chocolate Cream Frosted Cupcake",
+
+  "item.createfood.apple_cream_frosted_cupcake": "Apple Cream Frosted Cupcake",
+  "text.autoconfig.createfood.option.isAppleCreamFrostedCupcakeEnabled": "Enable Apple Cream Frosted Cupcake",
+
+  "item.createfood.berry_cream_frosted_cupcake": "Sweet Berry Cream Frosted Cupcake",
+  "text.autoconfig.createfood.option.isBerryCreamFrostedCupcakeEnabled": "Enable Sweet Berry Cream Frosted Cupcake",
+
+  "item.createfood.glow_berry_cream_frosted_cupcake": "Glow Berry Cream Frosted Cupcake",
+  "text.autoconfig.createfood.option.isGlowBerryCreamFrostedCupcakeEnabled": "Enable Glow Berry Cream Frosted Cupcake",
+
+  "item.createfood.melon_cream_frosted_cupcake": "Melon Cream Frosted Cupcake",
+  "text.autoconfig.createfood.option.isMelonCreamFrostedCupcakeEnabled": "Enable Melon Cream Frosted Cupcake",
+
+  "item.createfood.chorus_fruit_cream_frosted_cupcake": "Chorus Fruit Cream Frosted Cupcake",
+  "text.autoconfig.createfood.option.isChorusFruitCreamFrostedCupcakeEnabled": "Enable Chorus Fruit Cream Frosted Cupcake",
+
+  "item.createfood.caramel_chip_muffin": "Caramel Chip Muffin",
+  "text.autoconfig.createfood.option.isCaramelChipMuffinEnabled": "Enable Caramel Chip Muffin",
+
+  "item.createfood.raw_caramel_chip_muffin": "Raw Caramel Chip Muffin",
+  "text.autoconfig.createfood.option.isRawCaramelChipMuffinEnabled": "Enable Raw Caramel Chip Muffin",
+
+  "item.createfood.toffee_chip_muffin": "Toffee Chip Muffin",
+  "text.autoconfig.createfood.option.isToffeeChipMuffinEnabled": "Enable Toffee Chip Muffin",
+
+  "item.createfood.raw_toffee_chip_muffin": "Raw Toffee Chip Muffin",
+  "text.autoconfig.createfood.option.isRawToffeeChipMuffinEnabled": "Enable Raw Toffee Chip Muffin",
+
+  "item.createfood.chocolate_chip_muffin": "Chocolate Chip Muffin",
+  "text.autoconfig.createfood.option.isChocolateChipMuffinEnabled": "Enable Chocolate Chip Muffin",
+
+  "item.createfood.raw_chocolate_chip_muffin": "Raw Chocolate Chip Muffin",
+  "text.autoconfig.createfood.option.isRawChocolateChipMuffinEnabled": "Enable Raw Chocolate Chip Muffin",
+
+  "item.createfood.dark_chocolate_chip_muffin": "Dark Chocolate Chip Muffin",
+  "text.autoconfig.createfood.option.isDarkChocolateChipMuffinEnabled": "Enable Dark Chocolate Chip Muffin",
+
+  "item.createfood.raw_dark_chocolate_chip_muffin": "Raw Dark Chocolate Chip Muffin",
+  "text.autoconfig.createfood.option.isRawDarkChocolateChipMuffinEnabled": "Enable Raw Dark Chocolate Chip Muffin",
+
+  "item.createfood.white_chocolate_chip_muffin": "White Chocolate Chip Muffin",
+  "text.autoconfig.createfood.option.isWhiteChocolateChipMuffinEnabled": "Enable White Chocolate Chip Muffin",
+
+  "item.createfood.raw_white_chocolate_chip_muffin": "Raw White Chocolate Chip Muffin",
+  "text.autoconfig.createfood.option.isRawWhiteChocolateChipMuffinEnabled": "Enable Raw White Chocolate Chip Muffin",
+
+  "item.createfood.honeyed_muffin": "Honeyed Muffin",
+  "text.autoconfig.createfood.option.isHoneyedMuffinEnabled": "Enable Honeyed Muffin",
+
+  "item.createfood.raw_honeyed_muffin": "Raw Honeyed Muffin",
+  "text.autoconfig.createfood.option.isRawHoneyedMuffinEnabled": "Enable Raw Honeyed Muffin",
+
+  "item.createfood.butterscotch_chip_muffin": "Butterscotch Chip Muffin",
+  "text.autoconfig.createfood.option.isButterscotchChipMuffinEnabled": "Enable Butterscotch Chip Muffin",
+
+  "item.createfood.raw_butterscotch_chip_muffin": "Raw Butterscotch Chip Muffin",
+  "text.autoconfig.createfood.option.isRawButterscotchChipMuffinEnabled": "Enable Raw Butterscotch Chip Muffin",
+
+  "item.createfood.cheese_calzone": "Cheese Calzone",
+  "text.autoconfig.createfood.option.isCheeseCalzoneEnabled": "Enable Cheese Calzone",
+
+  "item.createfood.raw_cheese_calzone": "Raw Cheese Calzone",
+  "text.autoconfig.createfood.option.isRawCheeseCalzoneEnabled": "Enable Raw Cheese Calzone",
+
+
+  "item.createfood.muffin_base": "Muffin Base",
+  "text.autoconfig.createfood.option.isMuffinEnabled": "Enable Muffin Base",
+
+  "item.createfood.cupcake_base": "Cupcake Base",
+  "text.autoconfig.createfood.option.isCupcakeBaseEnabled": "Enable Cupcake Base",
+
+  "item.createfood.raw_muffin": "Raw Muffin",
+  "text.autoconfig.createfood.option.isRawMuffinEnabled": "Enable Raw Muffin",
+
+  "item.createfood.raw_cupcake": "Raw Cupcake",
+  "text.autoconfig.createfood.option.isRawCupcakeEnabled": "Enable Raw Cupcake",
+
+  "item.createfood.sugar_dough_small": "Sugar Dough (Small)",
+  "text.autoconfig.createfood.option.isSugarDoughSmallEnabled": "Enable Sugar Dough (Small)",
+
+  "item.createfood.butter_dough_small": "Butter Dough (Small)",
+  "text.autoconfig.createfood.option.isButterDoughSmallEnabled": "Enable Butter Dough (Small)",
+
+  "item.createfood.salt_dough_small": "Salt Dough (Small)",
+  "text.autoconfig.createfood.option.isSaltDoughSmallEnabled": "Enable Salt Dough (Small)",
+
   "item.createfood.dumpling_wrappers": "Dumpling Wrappers",
   "text.autoconfig.createfood.option.isDumpingWrappersEnabled": "Enable Dumpling Wrappers",
   "item.createfood.chocolate_cream_cake_slice_toffee": "Slice of Chocolate Cream Cake (Toffee Chips)",
@@ -411,13 +538,13 @@
   "item.createfood.chocolate_donut_hole": "Chocolate Donut Hole",
   "item.createfood.chocolate_donut_hole_sugar": "Powdered Chocolate Donut Hole",
   "item.createfood.chocolate_donut_sugar": "Powdered Chocolate Donut",
-  "item.createfood.chocolate_frosted_chocolate_sweet_roll": "Chocolate Frosted Chocolate Sweet Roll",
-  "item.createfood.chocolate_frosted_sweet_roll": "Chocolate Frosted Sweet Roll",
+  "item.createfood.chocolate_frosted_chocolate_sweet_roll": "Chocolate Cream Frosted Chocolate Sweet Roll",
+  "item.createfood.chocolate_frosted_sweet_roll": "Chocolate Cream Frosted Sweet Roll",
   "item.createfood.chocolate_fudge": "Chocolate Fudge",
   "item.createfood.chocolate_fudge_bucket": "Chocolate Fudge Bucket",
   "item.createfood.chocolate_glazed_apple": "Chocolate Glazed Apple",
-  "item.createfood.chocolate_glazed_chocolate_donut": "Chocolate Glazed Chocolate Donut",
-  "item.createfood.chocolate_glazed_donut": "Chocolate Glazed Donut",
+  "item.createfood.chocolate_glazed_chocolate_donut": "Chocolate Cream Glazed Chocolate Donut",
+  "item.createfood.chocolate_glazed_donut": "Chocolate Cream Glazed Donut",
   "item.createfood.chocolate_graham_cracker": "Chocolate Graham Cracker",
   "item.createfood.chocolate_graham_cracker_crumbs": "Chocolate Graham Cracker Crumbs",
   "item.createfood.chocolate_graham_cracker_ice_cream": "Chocolate Graham Cracker (Ice Cream)",

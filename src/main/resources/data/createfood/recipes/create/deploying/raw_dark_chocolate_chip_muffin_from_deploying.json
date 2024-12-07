@@ -1,0 +1,32 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:dark_chocolate_chips",
+                "c:raw_muffin",
+                "c:raw_dark_chocolate_chip_muffin"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:raw_muffin"
+        },
+        {
+            "tag": "c:dark_chocolate_chips"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:raw_dark_chocolate_chip_muffin"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_mushroom_calzone",
+                "c:mushroom_calzone"
+            ]
+        }
+    ],
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "tag": "c:raw_mushroom_calzone"
+    },
+    "result": "createfood:mushroom_calzone",
+    "experience": 0.15,
+    "cookingtime": 250
+}

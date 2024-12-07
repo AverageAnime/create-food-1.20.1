@@ -1,0 +1,24 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_calzone",
+                "c:cheeses",
+                "c:raw_cheese_calzone"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:raw_calzone"
+        },
+        {
+            "tag": "c:cheeses"
+        }
+    ],
+    "result": {
+        "item": "createfood:raw_cheese_calzone"
+    }
+}

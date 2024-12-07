@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:sugar_dough_small",
+      "required": false
+    }
+  ]
+}

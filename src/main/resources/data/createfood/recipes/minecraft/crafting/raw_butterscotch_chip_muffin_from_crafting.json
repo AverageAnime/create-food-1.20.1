@@ -1,0 +1,24 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_muffin",
+                "c:butterscotch_chips",
+                "c:raw_butterscotch_chip_muffin"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:raw_muffin"
+        },
+        {
+            "tag": "c:butterscotch_chips"
+        }
+    ],
+    "result": {
+        "item": "createfood:raw_butterscotch_chip_muffin"
+    }
+}

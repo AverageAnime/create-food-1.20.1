@@ -1,0 +1,18 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_toffee_chip_muffin",
+                "c:toffee_chip_muffin"
+            ]
+        }
+    ],
+    "type": "minecraft:smoking",
+    "ingredient": {
+        "tag": "c:raw_toffee_chip_muffin"
+    },
+    "result": "createfood:toffee_chip_muffin",
+    "experience": 0.15,
+    "cookingtime": 150
+}

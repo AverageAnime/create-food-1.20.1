@@ -1,0 +1,18 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_butterscotch_chip_muffin",
+                "c:butterscotch_chip_muffin"
+            ]
+        }
+    ],
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "tag": "c:raw_butterscotch_chip_muffin"
+    },
+    "result": "createfood:butterscotch_chip_muffin",
+    "experience": 0.15,
+    "cookingtime": 150
+}

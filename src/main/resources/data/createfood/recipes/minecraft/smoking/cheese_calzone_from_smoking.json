@@ -1,0 +1,18 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_cheese_calzone",
+                "c:cheese_calzone"
+            ]
+        }
+    ],
+    "type": "minecraft:smoking",
+    "ingredient": {
+        "tag": "c:raw_cheese_calzone"
+    },
+    "result": "createfood:cheese_calzone",
+    "experience": 0.15,
+    "cookingtime": 250
+}

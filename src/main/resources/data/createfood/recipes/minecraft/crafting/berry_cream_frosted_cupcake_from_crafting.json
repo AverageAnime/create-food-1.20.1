@@ -1,0 +1,24 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:cupcake_base",
+                "c:berry_cream_frosting",
+                "c:berry_cream_frosted_cupcake"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:cupcake_base"
+        },
+        {
+            "tag": "c:berry_cream_frosting"
+        }
+    ],
+    "result": {
+        "item": "createfood:berry_cream_frosted_cupcake"
+    }
+}

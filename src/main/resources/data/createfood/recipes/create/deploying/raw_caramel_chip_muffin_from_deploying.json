@@ -1,0 +1,32 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:caramel_chips",
+                "c:raw_muffin",
+                "c:raw_caramel_chip_muffin"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:raw_muffin"
+        },
+        {
+            "tag": "c:caramel_chips"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:raw_caramel_chip_muffin"
+        }
+    ]
+}

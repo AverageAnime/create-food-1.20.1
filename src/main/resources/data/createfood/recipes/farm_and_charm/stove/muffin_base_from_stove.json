@@ -1,0 +1,32 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farm_and_charm"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:raw_muffin",
+                "c:muffin_base"
+            ]
+        }
+    ],
+    "type": "farm_and_charm:stove",
+    "ingredients": [
+        {
+            "tag": "c:raw_muffin"
+        },
+        {
+            "tag": "c:raw_muffin"
+        },
+        {
+            "tag": "c:raw_muffin"
+        }
+    ],
+    "item": "createfood:muffin_base",
+    "count": 3,
+    "experience": 0.25
+}
