@@ -21,7 +21,7 @@
         },
         {
             "amount": 27000,
-            "fluid": "createfood:ice_cream"
+            "fluidTag": "c:ice_cream"
         }
     ],
     "results": [

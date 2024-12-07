@@ -22,7 +22,7 @@
         },
         {
             "amount": 10125,
-            "fluid": "createfood:chorus_fruit_cream_frosting"
+            "fluidTag": "c:chorus_fruit_cream_frosting"
         }
     ],
     "results": [

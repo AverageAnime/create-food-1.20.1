@@ -21,7 +21,7 @@
         },
         {
             "amount": 20250,
-            "fluid": "createfood:apple_cream_frosting"
+            "fluidTag": "c:apple_cream_frosting"
         }
     ],
     "results": [

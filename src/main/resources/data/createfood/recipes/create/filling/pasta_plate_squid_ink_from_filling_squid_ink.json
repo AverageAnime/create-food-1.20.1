@@ -22,7 +22,7 @@
         },
         {
             "amount": 20250,
-            "fluid": "createfood:squid_ink"
+            "fluidTag": "c:squid_ink"
         }
     ],
     "results": [

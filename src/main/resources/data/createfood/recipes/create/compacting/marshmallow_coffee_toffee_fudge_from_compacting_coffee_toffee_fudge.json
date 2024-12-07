@@ -19,7 +19,7 @@
     "ingredients": [
         {
             "amount": 40500,
-            "fluid": "createfood:coffee_toffee_fudge"
+            "fluidTag": "c:coffee_toffee_fudge"
         },
         {
             "tag": "c:marshmallow"

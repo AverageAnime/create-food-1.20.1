@@ -18,7 +18,7 @@
     "ingredients": [
         {
             "amount": 81000,
-            "fluid": "createfood:red_gelatin_mix"
+            "fluidTag": "c:red_gelatin_mix"
         },
         {
             "item": "minecraft:ice"

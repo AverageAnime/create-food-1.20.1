@@ -22,7 +22,7 @@
         },
         {
             "amount": 81000,
-            "fluid": "createfood:chorus_fruit_pie_filling"
+            "fluidTag": "c:chorus_fruit_pie_filling"
         }
     ],
     "results": [

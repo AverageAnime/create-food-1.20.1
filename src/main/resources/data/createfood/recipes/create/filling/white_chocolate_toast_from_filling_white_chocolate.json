@@ -22,7 +22,7 @@
         },
         {
             "amount": 10125,
-            "fluid": "createfood:white_chocolate"
+            "fluidTag": "c:white_chocolate"
         }
     ],
     "results": [

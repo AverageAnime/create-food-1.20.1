@@ -27,7 +27,7 @@
         },
         {
             "amount": 20250,
-            "fluid": "createfood:condensed_milk"
+            "fluidTag": "c:condensed_milk"
         }
     ],
     "results": [

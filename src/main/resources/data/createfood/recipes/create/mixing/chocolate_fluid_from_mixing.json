@@ -21,7 +21,7 @@
         },
         {
             "amount": 10125,
-            "fluid": "createfood:cacao_mass"
+            "fluidTag": "c:cacao_mass"
         }
     ],
     "results": [

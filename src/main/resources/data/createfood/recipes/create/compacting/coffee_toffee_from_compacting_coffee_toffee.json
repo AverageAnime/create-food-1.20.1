@@ -18,7 +18,7 @@
     "ingredients": [
         {
             "amount": 40500,
-            "fluid": "createfood:coffee_toffee"
+            "fluidTag": "c:coffee_toffee"
         }
     ],
     "results": [

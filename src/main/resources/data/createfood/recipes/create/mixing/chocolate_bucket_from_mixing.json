@@ -21,7 +21,7 @@
         },
         {
             "amount": 40500,
-            "fluid": "createfood:cacao_mass"
+            "fluidTag": "c:cacao_mass"
         },
         {
             "item": "minecraft:bucket"

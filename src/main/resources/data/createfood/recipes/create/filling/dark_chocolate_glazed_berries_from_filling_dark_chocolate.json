@@ -21,7 +21,7 @@
         },
         {
             "amount": 27000,
-            "fluid": "createfood:dark_chocolate"
+            "fluidTag": "c:dark_chocolate"
         }
     ],
     "results": [

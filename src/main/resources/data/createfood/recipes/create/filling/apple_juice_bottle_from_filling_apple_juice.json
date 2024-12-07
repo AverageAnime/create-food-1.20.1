@@ -21,7 +21,7 @@
         },
         {
             "amount": 20250,
-            "fluid": "createfood:apple_juice"
+            "fluidTag": "c:apple_juice"
         }
     ],
     "results": [

@@ -21,7 +21,7 @@
         },
         {
             "amount": 20250,
-            "fluid": "createfood:fruit_smoothie"
+            "fluidTag": "c:fruit_smoothie"
         }
     ],
     "results": [

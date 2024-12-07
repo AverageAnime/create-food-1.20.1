@@ -21,7 +21,7 @@
         },
         {
             "amount": 40500,
-            "fluid": "createfood:molasses"
+            "fluidTag": "c:molasses"
         }
     ],
     "results": [

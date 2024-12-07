@@ -21,7 +21,7 @@
         },
         {
             "amount": 40500,
-            "fluid": "createfood:apple_milkshake"
+            "fluidTag": "c:apple_milkshake"
         }
     ],
     "results": [

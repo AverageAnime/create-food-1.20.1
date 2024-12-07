@@ -22,7 +22,7 @@
         },
         {
             "amount": 81000,
-            "fluid": "createfood:cheesecake_filling"
+            "fluidTag": "c:cheesecake_filling"
         }
     ],
     "results": [

@@ -17,7 +17,7 @@
     "ingredients": [
         {
             "amount": 20250,
-            "fluid": "createfood:hot_chocolate"
+            "fluidTag": "c:hot_chocolate"
         }
     ],
     "results": [

@@ -22,7 +22,7 @@
         },
         {
             "amount": 81000,
-            "fluid": "createfood:glow_berry_pie_filling"
+            "fluidTag": "c:glow_berry_pie_filling"
         }
     ],
     "results": [

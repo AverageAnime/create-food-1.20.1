@@ -21,7 +21,7 @@
         },
         {
             "amount": 81000,
-            "fluid": "createfood:heavy_cream"
+            "fluidTag": "c:heavy_cream"
         },
         {
             "amount": 20250,

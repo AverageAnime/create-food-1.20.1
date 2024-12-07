@@ -19,7 +19,7 @@
     "ingredients": [
         {
             "amount": 81000,
-            "fluid": "createfood:cane_syrup"
+            "fluidTag": "c:cane_syrup"
         }
     ],
     "results": [

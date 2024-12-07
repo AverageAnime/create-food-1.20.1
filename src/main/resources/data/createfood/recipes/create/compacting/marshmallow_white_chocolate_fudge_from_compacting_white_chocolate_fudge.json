@@ -19,7 +19,7 @@
     "ingredients": [
         {
             "amount": 40500,
-            "fluid": "createfood:white_chocolate_fudge"
+            "fluidTag": "c:white_chocolate_fudge"
         },
         {
             "tag": "c:marshmallow"

@@ -22,7 +22,7 @@
         },
         {
             "amount": 27000,
-            "fluid": "createfood:caramel"
+            "fluidTag": "c:caramel"
         }
     ],
     "results": [

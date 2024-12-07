@@ -22,7 +22,7 @@
         },
         {
             "amount": 81000,
-            "fluid": "createfood:apple_pie_filling"
+            "fluidTag": "c:apple_pie_filling"
         }
     ],
     "results": [

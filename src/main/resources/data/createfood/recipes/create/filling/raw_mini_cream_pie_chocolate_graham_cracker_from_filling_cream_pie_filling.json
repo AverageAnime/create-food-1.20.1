@@ -21,7 +21,7 @@
         },
         {
             "amount": 20250,
-            "fluid": "createfood:cream_pie_filling"
+            "fluidTag": "c:cream_pie_filling"
         }
     ],
     "results": [

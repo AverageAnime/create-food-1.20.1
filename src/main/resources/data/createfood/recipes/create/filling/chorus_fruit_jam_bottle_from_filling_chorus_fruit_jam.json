@@ -21,7 +21,7 @@
         },
         {
             "amount": 40500,
-            "fluid": "createfood:chorus_fruit_jam"
+            "fluidTag": "c:chorus_fruit_jam"
         }
     ],
     "results": [

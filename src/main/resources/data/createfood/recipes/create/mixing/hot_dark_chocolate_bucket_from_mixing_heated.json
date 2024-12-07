@@ -19,7 +19,7 @@
     "ingredients": [
         {
             "amount": 81000,
-            "fluid": "createfood:cacao_mass"
+            "fluidTag": "c:cacao_mass"
         },
         {
             "tag": "c:cocoa_powder"

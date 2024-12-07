@@ -22,7 +22,7 @@
         },
         {
             "amount": 27000,
-            "fluid": "createfood:cream_frosting"
+            "fluidTag": "c:cream_frosting"
         }
     ],
     "results": [

@@ -19,7 +19,7 @@
     "ingredients": [
         {
             "amount": 81000,
-            "fluid": "createfood:ice_cream"
+            "fluidTag": "c:ice_cream"
         },
         {
             "tag": "c:cocoa_powder"

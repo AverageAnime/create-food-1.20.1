@@ -21,7 +21,7 @@
         },
         {
             "amount": 20250,
-            "fluid": "createfood:yogurt"
+            "fluidTag": "c:yogurt"
         }
     ],
     "results": [

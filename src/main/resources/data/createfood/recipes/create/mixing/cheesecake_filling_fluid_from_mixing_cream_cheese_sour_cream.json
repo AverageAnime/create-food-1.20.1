@@ -20,11 +20,11 @@
     "ingredients": [
         {
             "amount": 81000,
-            "fluid": "createfood:cream_cheese"
+            "fluidTag": "c:cream_cheese"
         },
         {
             "amount": 20250,
-            "fluid": "createfood:sour_cream"
+            "fluidTag": "c:sour_cream"
         },
         {
             "tag": "c:sugar"

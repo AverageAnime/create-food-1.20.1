@@ -22,7 +22,7 @@
         },
         {
             "amount": 40500,
-            "fluid": "createfood:cacao_butter"
+            "fluidTag": "c:cacao_butter"
         },
         {
             "item": "minecraft:bucket"

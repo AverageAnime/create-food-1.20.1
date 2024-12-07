@@ -19,7 +19,7 @@
     "ingredients": [
         {
             "amount": 81000,
-            "fluid": "createfood:molasses"
+            "fluidTag": "c:molasses"
         }
     ],
     "results": [

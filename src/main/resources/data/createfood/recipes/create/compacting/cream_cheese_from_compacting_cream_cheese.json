@@ -17,7 +17,7 @@
     "ingredients": [
         {
             "amount": 27000,
-            "fluid": "createfood:cream_cheese"
+            "fluidTag": "c:cream_cheese"
         }
     ],
     "results": [

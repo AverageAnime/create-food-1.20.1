@@ -21,7 +21,7 @@
         },
         {
             "amount": 20250,
-            "fluid": "createfood:glow_berry_juice"
+            "fluidTag": "c:glow_berry_juice"
         }
     ],
     "results": [

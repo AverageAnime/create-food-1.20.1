@@ -21,7 +21,7 @@
         },
         {
             "amount": 20250,
-            "fluid": "createfood:slime"
+            "fluidTag": "c:slime"
         }
     ],
     "results": [

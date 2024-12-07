@@ -22,7 +22,7 @@
         },
         {
             "amount": 60750,
-            "fluid": "createfood:ice_cream"
+            "fluidTag": "c:ice_cream"
         },
         {
             "tag": "c:ice_blocks"

@@ -18,7 +18,7 @@
     "ingredients": [
         {
             "amount": 40500,
-            "fluid": "createfood:vegetable_oil"
+            "fluidTag": "c:vegetable_oil"
         }
     ],
     "results": [

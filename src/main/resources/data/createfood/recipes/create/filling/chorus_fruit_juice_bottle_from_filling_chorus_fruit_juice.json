@@ -21,7 +21,7 @@
         },
         {
             "amount": 20250,
-            "fluid": "createfood:chorus_fruit_juice"
+            "fluidTag": "c:chorus_fruit_juice"
         }
     ],
     "results": [

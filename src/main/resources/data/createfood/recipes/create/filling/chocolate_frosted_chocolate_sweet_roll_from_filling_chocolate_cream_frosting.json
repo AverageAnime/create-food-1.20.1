@@ -22,7 +22,7 @@
         },
         {
             "amount": 27000,
-            "fluid": "createfood:chocolate_cream_frosting"
+            "fluidTag": "c:chocolate_cream_frosting"
         }
     ],
     "results": [

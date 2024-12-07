@@ -21,7 +21,7 @@
         },
         {
             "amount": 20250,
-            "fluid": "createfood:melon_cream_frosting"
+            "fluidTag": "c:melon_cream_frosting"
         }
     ],
     "results": [

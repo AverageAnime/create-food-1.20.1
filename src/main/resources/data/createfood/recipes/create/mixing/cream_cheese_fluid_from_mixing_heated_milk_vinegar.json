@@ -24,7 +24,7 @@
         },
         {
             "amount": 20250,
-            "fluid": "createfood:vinegar"
+            "fluidTag": "c:vinegar"
         },
         {
             "tag": "c:salt"

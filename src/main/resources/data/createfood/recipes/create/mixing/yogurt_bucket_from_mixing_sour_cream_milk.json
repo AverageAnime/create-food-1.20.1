@@ -21,7 +21,7 @@
         },
         {
             "amount": 20250,
-            "fluid": "createfood:sour_cream"
+            "fluidTag": "c:sour_cream"
         },
         {
             "amount": 81000,

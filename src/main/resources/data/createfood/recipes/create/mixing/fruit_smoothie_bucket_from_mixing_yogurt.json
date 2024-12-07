@@ -21,7 +21,7 @@
         },
         {
             "amount": 40500,
-            "fluid": "createfood:yogurt"
+            "fluidTag": "c:yogurt"
         },
         {
             "tag": "c:fruits"

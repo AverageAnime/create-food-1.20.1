@@ -21,7 +21,7 @@
         },
         {
             "amount": 40500,
-            "fluid": "createfood:chorus_fruit_milkshake"
+            "fluidTag": "c:chorus_fruit_milkshake"
         }
     ],
     "results": [

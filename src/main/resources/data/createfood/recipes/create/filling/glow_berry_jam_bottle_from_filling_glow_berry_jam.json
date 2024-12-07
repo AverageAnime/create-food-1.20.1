@@ -21,7 +21,7 @@
         },
         {
             "amount": 40500,
-            "fluid": "createfood:glow_berry_jam"
+            "fluidTag": "c:glow_berry_jam"
         }
     ],
     "results": [

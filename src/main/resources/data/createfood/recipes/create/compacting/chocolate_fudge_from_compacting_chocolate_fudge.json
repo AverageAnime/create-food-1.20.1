@@ -18,7 +18,7 @@
     "ingredients": [
         {
             "amount": 40500,
-            "fluid": "createfood:chocolate_fudge"
+            "fluidTag": "c:chocolate_fudge"
         }
     ],
     "results": [

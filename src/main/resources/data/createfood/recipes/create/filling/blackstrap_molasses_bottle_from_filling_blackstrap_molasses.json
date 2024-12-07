@@ -21,7 +21,7 @@
         },
         {
             "amount": 40500,
-            "fluid": "createfood:blackstrap_molasses"
+            "fluidTag": "c:blackstrap_molasses"
         }
     ],
     "results": [

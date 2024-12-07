@@ -21,7 +21,7 @@
         },
         {
             "amount": 20250,
-            "fluid": "createfood:chocolate_milk"
+            "fluidTag": "c:chocolate_milk"
         }
     ],
     "results": [

@@ -19,7 +19,7 @@
     "ingredients": [
         {
             "amount": 81000,
-            "fluid": "createfood:sugar_cane_juice"
+            "fluidTag": "c:sugar_cane_juice"
         }
     ],
     "results": [

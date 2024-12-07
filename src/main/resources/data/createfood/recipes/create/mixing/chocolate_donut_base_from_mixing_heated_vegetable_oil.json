@@ -32,7 +32,7 @@
         },
         {
             "amount": 10125,
-            "fluid": "createfood:vegetable_oil"
+            "fluidTag": "c:vegetable_oil"
         }
     ],
     "results": [

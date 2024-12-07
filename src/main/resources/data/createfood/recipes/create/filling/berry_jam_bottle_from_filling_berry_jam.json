@@ -21,7 +21,7 @@
         },
         {
             "amount": 40500,
-            "fluid": "createfood:berry_jam"
+            "fluidTag": "c:berry_jam"
         }
     ],
     "results": [
