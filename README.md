@@ -7,7 +7,7 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 
 * Available for both Fabric & Forge. Differences between versions are listed [here](https://github.com/AverageAnime/create-food/wiki/Fabric-&-Forge-Differences).
 * Hundreds of new food-related items, including dozens of new fluids. Enable/disable in the config according to preference. Check out the full item list [here](https://github.com/AverageAnime/create-food/wiki/Item-List) and preview textures [here](https://github.com/AverageAnime/create-food/wiki/Preview).
-* Numerous tag additions to enhance mod compatibility. Includes a tag-based system to apply Farmer's Delight food effects and vanilla status effects to any item with the appropriate tag.
+* Numerous tag additions to enhance mod compatibility. Includes a tag-based system to apply Farmer's Delight food effects and vanilla status effects to any item with the appropriate tag (Fabric only).
 * All recipes use tags where possible. Includes additional recipe support for [satisfy’s](https://www.curseforge.com/members/satisfy/projects) [Let’s Do] mods.
 * Remainder items implemented where applicable (i.e. sticks for popsicles).
 * Animated textures for hot drinks.
@@ -25,9 +25,9 @@ Create: Food is an add-on for [Farmer's Delight](https://www.curseforge.com/mine
 *  [Config Options](https://github.com/AverageAnime/create-food/wiki/Config-Options)
 *  [Food Effect Tags](https://github.com/AverageAnime/create-food/wiki/Food-Effect-Tags)
 
-### **Item Preview (1.1.5)**
+### **Item Preview (1.1.6)**
 
-![fullprev115](https://github.com/user-attachments/assets/d1aa55df-ad2d-4dc3-bbac-6516404e3012)
+![fullprev116](https://github.com/user-attachments/assets/efdda6e6-8e99-4f03-9aaf-799641056a84)
 ![bucketprev112big](https://github.com/user-attachments/assets/d9d67fc3-dfc3-4cac-8b80-25cfaf2175c4)
 
 ### **My Other Mods**

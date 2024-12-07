@@ -1,3 +1,28 @@
+### ***1.1.6***
+
+General:
+* New food: calzones, cupcakes, and muffins.
+* Fix fluid amount from melting hollow chocolates [(#46)](https://github.com/AverageAnime/create-food/issues/46)
+* New shaped recipes. 
+* New emptying recipes.
+* Added fluid tags & changed recipes to use them.
+* Compatibility tags added for:
+  * Create: Deepfried
+  * Create: Sweets & Treats
+  * Create: Bitterballen
+  * Ender's Delight
+* Change display names of the following items to match their recipes. IDs will remain the same for now. 
+  * Chocolate Glazed Chocolate Donut > Chocolate Cream Glazed Chocolate Donut
+  * Chocolate Glazed Donut > Chocolate Cream Glazed Donut
+  * Chocolate Frosted Chocolate Sweet Roll > Chocolate Cream Frosted Chocolate Sweet Roll
+  * Chocolate Frosted Sweet Roll > Chocolate Cream Frosted Sweet Roll
+
+Fabric:
+* Change fluid amounts in filling/emptying/mixing recipes of create:builders_tea & farmersdelight:milk_bottle to match standard bottle size (333mB > 250mB)
+
+Forge:
+* Change fluid amount in create:chocolate compacting recipe to match Fabric (250mB > 333mB) [(#46)](https://github.com/AverageAnime/create-food/issues/46)
+
 ### ***1.1.5***
 
 General:
