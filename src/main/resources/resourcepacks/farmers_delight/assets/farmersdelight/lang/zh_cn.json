@@ -1,0 +1,15 @@
+{
+  "item.farmersdelight.hamburger": "汉堡（洋葱、生菜、番茄）",
+  "item.farmersdelight.bacon_sandwich": "培根三明治（生菜、番茄）",
+  "item.farmersdelight.chicken_sandwich": "鸡肉三明治（生菜、胡萝卜）",
+  "item.farmersdelight.egg_sandwich": "煎蛋三明治",
+  "item.farmersdelight.pasta_with_meatballs": "肉丸番茄酱意面",
+  "item.farmersdelight.pasta_with_mutton_chop": "羊排番茄酱意面",
+  "item.farmersdelight.squid_ink_pasta": "鱼肉鱿鱼墨汁意面",
+  "item.delightfulcreators.incomplete_chicken_sandwich": "面包（鸡肉）",
+  "item.delightfulcreators.incomplete_hamburger": "汉堡",
+  "item.delightfulcreators.incomplete_pasta_dish": "意面盘",
+  "item.delightfulcreators.incomplete_squid_ink_pasta": "鱿鱼墨汁意面",
+  "item.delightfulcreators.incomplete_pasta_with_meatballs": "肉丸意面",
+  "item.delightfulcreators.incomplete_pasta_with_mutton_chop": "羊排意面"
+}
