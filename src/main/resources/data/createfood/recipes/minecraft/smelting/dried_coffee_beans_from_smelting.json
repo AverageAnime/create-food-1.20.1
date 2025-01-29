@@ -4,7 +4,7 @@
             "condition": "fabric:tags_populated",
             "values": [
                 "c:coffee_beans",
-                "c:dried_coffee_beans"
+                "c:dried_coffee_beans_compat"
             ]
         }
     ],

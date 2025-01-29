@@ -10,7 +10,7 @@
             "condition": "fabric:tags_populated",
             "values": [
                 "c:paprika_pepper",
-                "c:paprika"
+                "c:paprika_compat"
             ]
         }
     ],
