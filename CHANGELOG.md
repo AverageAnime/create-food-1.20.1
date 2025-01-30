@@ -1,3 +1,32 @@
+### *** 1.1.8 ***
+
+![newprev118](https://github.com/user-attachments/assets/d888474a-6f96-4d3b-aa4f-1cc8dcf90495)
+> *Also added are waffle blocks which act the same as cheesecakes/pies/pizza*
+
+General:
+* 30+ new food items.
+* Fix sausage pizza loot tables.
+* Add Simplified Chinese Translation. [(#50)](https://github.com/AverageAnime/create-food/pull/50)
+
+Fabric:
+* Fix dried coffee beans recipes to prevent crash. [(#48)](https://github.com/AverageAnime/create-food/issues/48)
+
+Forge:
+* Compatibility tags added for:
+  * Create: The Kitchen Must Grow
+  * Delightful
+  * Delightful Burgers
+  * Delightful Sandwich
+
+### *** 1.1.7 ***
+
+General:
+* Moved some recipes to compat folders.
+* Fixed Create: Bitterballen deep-frying recipes. 
+
+Forge:
+* Fixed recipes incorrectly using strings [(#47)](https://github.com/AverageAnime/create-food/issues/47). 
+
 ### ***1.1.6***
 
 General:
