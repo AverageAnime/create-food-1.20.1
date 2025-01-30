@@ -48,6 +48,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isAppleCreamFrostedCupcakeEnabled = true;
+    @Comment("Enable Apple Cream Frosted Mini Waffle.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isAppleCreamFrostedMiniWaffleEnabled = true;
     @Comment("Enable Apple Cream Frosted Sweet Roll.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -72,6 +76,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isAppleIceCreamBowlEnabled = true;
+    @Comment("Enable Apple Ice Cream Cone.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isAppleIceCreamConeEnabled = true;
     @Comment("Enable Scoop of Apple Ice Cream.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -164,6 +172,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBerryCreamFrostedCupcakeEnabled = true;
+    @Comment("Enable Berry Cream Frosted Mini Waffle.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBerryCreamFrostedMiniWaffleEnabled = true;
+    @Comment("Enable Berry Cream Frosted Mini Waffle (Sweet Berry).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBerryCreamFrostedMiniWaffleSweetBerryEnabled = true;
     @Comment("Enable Berry Cream Frosted Sweet Roll.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -184,6 +200,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBerryIceCreamBowlEnabled = true;
+    @Comment("Enable Berry Ice Cream Cone.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isBerryIceCreamConeEnabled = true;
     @Comment("Enable Scoop of Berry Ice Cream.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -356,6 +376,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isButterscotchChipsCookieEnabled = true;
+    @Comment("Enable Butterscotch Chip Ice Cream Cone.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isButterscotchChipIceCreamConeEnabled = true;
     @Comment("Enable Butterscotch Chip Milkshake.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -404,6 +428,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCaramelChipsCookieEnabled = true;
+    @Comment("Enable Caramel Chip Ice Cream Cone.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCaramelChipIceCreamConeEnabled = true;
     @Comment("Enable Caramel Chip Milkshake.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -532,6 +560,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateChipsEnabled = true;
+    @Comment("Enable Chocolate Chip Ice Cream Cone.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateChipIceCreamConeEnabled = true;
     @Comment("Enable Chocolate Chip Milkshake.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -556,6 +588,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateCreamFrostedCupcakeEnabled = true;
+    @Comment("Enable Chocolate Cream Frosted Mini Waffle.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateCreamFrostedMiniWaffleEnabled = true;
     @Comment("Enable Chocolate Donut Base.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -636,6 +672,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChocolateIceCreamBowlEnabled = true;
+    @Comment("Enable Chocolate Ice Cream Cone.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateIceCreamConeEnabled = true;
     @Comment("Enable Scoop of Chocolate Ice Cream.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -732,6 +772,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChorusFruitCreamFrostedCupcakeEnabled = true;
+    @Comment("Enable Chorus Fruit Cream Frosted Mini Waffle.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChorusFruitCreamFrostedMiniWaffleEnabled = true;
+    @Comment("Enable Chorus Fruit Cream Frosted Mini Waffle (Chorus Fruit).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChorusFruitCreamFrostedMiniWaffleChorusFruitEnabled = true;
     @Comment("Enable Chorus Fruit Cream Frosted Sweet Roll.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -752,6 +800,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isChorusFruitIceCreamBowlEnabled = true;
+    @Comment("Enable Chorus Fruit Ice Cream Cone.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChorusFruitIceCreamConeEnabled = true;
     @Comment("Enable Scoop of Chorus Fruit Ice Cream.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -832,6 +884,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isDarkChocolateChipsEnabled = true;
+    @Comment("Enable Dark Chocolate Chip Ice Cream Cone.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDarkChocolateChipIceCreamConeEnabled = true;
     @Comment("Enable Dark Chocolate Chip Muffin.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -900,6 +956,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isFrostedCupcakeEnabled = true;
+    @Comment("Enable Frosted Mini Waffle.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isFrostedMiniWaffleEnabled = true;
     @Comment("Enable Fried Egg & Hash Brown Sandwich.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -964,6 +1024,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGlowBerryCreamFrostedCupcakeEnabled = true;
+    @Comment("Enable Glow Berry Cream Frosted Mini Waffle.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryCreamFrostedMiniWaffleEnabled = true;
+    @Comment("Enable Glow Berry Cream Frosted Mini Waffle (Glow Berry).")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryCreamFrostedMiniWaffleGlowBerryEnabled = true;
     @Comment("Enable Glow Berry Cream Frosted Sweet Roll.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -984,6 +1052,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isGlowBerryIceCreamBowlEnabled = true;
+    @Comment("Enable Glow Berry Ice Cream Cone.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isGlowBerryIceCreamConeEnabled = true;
     @Comment("Enable Scoop of Glow Berry Ice Cream.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1104,6 +1176,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isHoneyedCupcakeEnabled = true;
+    @Comment("Enable Honeyed Mini Waffle.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isHoneyedMiniWaffleEnabled = true;
     @Comment("Enable Honeyed Donut.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1148,6 +1224,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isIceCreamBowlEnabled = true;
+    @Comment("Enable Ice Cream Cone.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isIceCreamConeEnabled = true;
     @Comment("Enable Ice Cream Sandwich.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1260,6 +1340,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isMelonCreamFrostedCupcakeEnabled = true;
+    @Comment("Enable Melon Cream Frosted Mini Waffle.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMelonCreamFrostedMiniWaffleEnabled = true;
     @Comment("Enable Melon Cream Frosted Sweet Roll.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1276,10 +1360,14 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isMelonCreamGlazedDonutEnabled = true;
-    @Comment("Enable Melon Ice Cream.")
+    @Comment("Enable Melon Ice Cream Bowl.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isMelonIceCreamBowlEnabled = true;
+    @Comment("Enable Melon Ice Cream Cone.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isMelonIceCreamConeEnabled = true;
     @Comment("Enable Scoop of Melon Ice Cream.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1736,6 +1824,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isToffeeChipsCookieEnabled = true;
+    @Comment("Enable Toffee Chip Ice Cream Cone.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isToffeeChipIceCreamConeEnabled = true;
     @Comment("Enable Toffee Chip Milkshake.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1764,6 +1856,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isVinegarBottleEnabled = true;
+    @Comment("Enable Waffle Cone.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isWaffleConeEnabled = true;
     @Comment("Enable White Chips Chocolate Cookie.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1780,6 +1876,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isWhiteChocolateChipsEnabled = true;
+    @Comment("Enable White Chocolate Chip Ice Cream Cone.")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isWhiteChocolateChipIceCreamConeEnabled = true;
     @Comment("Enable White Chocolate Chip Muffin.")
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
@@ -1863,6 +1963,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isBerryPieEnabled = true;
+    @Comment("Enable Butterscotch Chip Waffle Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isButterscotchChipWaffleBlockEnabled = true;
     @Comment("Enable Cake (Chorus Fruit).")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -1871,6 +1975,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCakeGlowBerryEnabled = true;
+    @Comment("Enable Caramel Chip Waffle Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isCaramelChipWaffleBlockEnabled = true;
     @Comment("Enable Cheese Pizza.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -1891,6 +1999,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCreamPieGrahamCrackerEnabled = true;
+    @Comment("Enable Chocolate Chip Waffle Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isChocolateChipWaffleBlockEnabled = true;
     @Comment("Enable Chocolate Cream Cake (Butterscotch).")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -1951,6 +2063,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isCyanGelatinDessertBlockEnabled = true;
+    @Comment("Enable Dark Chocolate Chip Waffle Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isDarkChocolateChipWaffleBlockEnabled = true;
     @Comment("Enable Fish Pizza.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -2215,6 +2331,18 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isSmoresPieEnabled = true;
+    @Comment("Enable Toffee Chip Waffle Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isToffeeChipWaffleBlockEnabled = true;
+    @Comment("Enable Waffle Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isWaffleBlockEnabled = true;
+    @Comment("Enable White Chocolate Chip Waffle Block.")
+    @ConfigEntry.Category("CreateFoodBlock")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isWhiteChocolateChipWaffleBlockEnabled = true;
     @Comment("Enable Yellow Gelatin Dessert Block.")
     @ConfigEntry.Category("CreateFoodBlock")
     @ConfigEntry.Gui.RequiresRestart
@@ -2539,6 +2667,10 @@ public class ModConfig implements ConfigData
     @ConfigEntry.Category("CreateFood")
     @ConfigEntry.Gui.RequiresRestart
     public boolean isVinegarFluidEnabled = true;
+    @Comment("Enable Waffle Batter Fluid .")
+    @ConfigEntry.Category("CreateFood")
+    @ConfigEntry.Gui.RequiresRestart
+    public boolean isWaffleBatterFluidEnabled = true;
     @Comment("Enable White Chocolate Fluid.")
     @ConfigEntry.Category("CreateFoodFluid")
     @ConfigEntry.Gui.RequiresRestart

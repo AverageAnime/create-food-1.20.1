@@ -1,0 +1,23 @@
+{
+	"fabric:load_conditions": [
+		{
+			"condition": "fabric:all_mods_loaded",
+			"values": [
+				"createaddition"
+			]
+		},
+		{
+			"condition": "fabric:tags_populated",
+			"values": [
+				"c:waffle_cone"
+			]
+		}
+	],
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "c:mini_waffle"
+	},
+	"result": {
+		"item": "createfood:waffle_cone"
+	}
+}

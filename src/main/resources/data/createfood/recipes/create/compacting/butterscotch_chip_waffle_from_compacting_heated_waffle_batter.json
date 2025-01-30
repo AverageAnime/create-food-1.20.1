@@ -1,0 +1,42 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:waffle_batter_bucket",
+                "c:butterscotch_chip_waffle"
+            ]
+        }
+    ],
+    "type": "create:compacting",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 40500,
+            "fluidTag": "c:waffle_batter"
+        },
+        {
+            "tag": "c:butterscotch_chips"
+        },
+        {
+            "tag": "c:butterscotch_chips"
+        },
+        {
+            "tag": "c:butterscotch_chips"
+        },
+        {
+            "tag": "c:butterscotch_chips"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:butterscotch_chip_waffle"
+        }
+    ]
+}

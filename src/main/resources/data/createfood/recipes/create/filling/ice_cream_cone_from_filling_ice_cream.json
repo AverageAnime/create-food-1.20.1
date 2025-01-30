@@ -1,0 +1,32 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ice_cream_bucket",
+                "c:ice_cream_cone"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:waffle_cone"
+        },
+        {
+            "amount": 9000,
+            "fluidTag": "c:ice_cream"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:ice_cream_cone"
+        }
+    ]
+}

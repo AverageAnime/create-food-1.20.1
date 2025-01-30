@@ -108,6 +108,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(APPLE_CREAM_FROSTED_CUPCAKE));
         }
 
+// Apple Cream Frosted Mini Waffle
+
+        if (CONFIG.isAppleCreamFrostedMiniWaffleEnabled) {
+            final Item APPLE_CREAM_FROSTED_MINI_WAFFLE = registerItem("apple_cream_frosted_mini_waffle", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.6f).snack().statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(APPLE_CREAM_FROSTED_MINI_WAFFLE));
+        }
+
 // Apple Cream Frosted Sweet Roll
 
         if (CONFIG.isAppleCreamFrostedSweetRollEnabled) {
@@ -120,6 +127,13 @@ public class ModItems {
         if (CONFIG.isAppleIceCreamBowlEnabled) {
             final Item APPLE_ICE_CREAM_BOWL = registerItem("apple_ice_cream_bowl", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.1f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(APPLE_ICE_CREAM_BOWL));
+        }
+
+// Apple Ice Cream Cone
+
+        if (CONFIG.isAppleIceCreamConeEnabled) {
+            final Item APPLE_ICE_CREAM_CONE = registerItem("apple_ice_cream_cone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.6f).snack().statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(APPLE_ICE_CREAM_CONE));
         }
 
 // Apple Ice Cream Stick
@@ -394,6 +408,20 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BERRY_CREAM_FROSTED_CUPCAKE));
         }
 
+// Berry Cream Frosted Mini Waffle
+
+        if (CONFIG.isBerryCreamFrostedMiniWaffleEnabled) {
+            final Item BERRY_CREAM_FROSTED_MINI_WAFFLE = registerItem("berry_cream_frosted_mini_waffle", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.9f).snack().statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BERRY_CREAM_FROSTED_MINI_WAFFLE));
+        }
+
+// Berry Cream Frosted Mini Waffle (Sweet Berry)
+
+        if (CONFIG.isBerryCreamFrostedMiniWaffleSweetBerryEnabled) {
+            final Item BERRY_CREAM_FROSTED_MINI_WAFFLE_SWEET_BERRY = registerItem("berry_cream_frosted_mini_waffle_sweet_berry", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.9f).snack().statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 1200, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BERRY_CREAM_FROSTED_MINI_WAFFLE_SWEET_BERRY));
+        }
+
 // Berry Cream Frosted Sweet Roll
 
         if (CONFIG.isBerryCreamFrostedSweetRollEnabled) {
@@ -427,6 +455,13 @@ public class ModItems {
         if (CONFIG.isBerryIceCreamBowlEnabled) {
             final Item BERRYICECREAMBOWL = registerItem("berry_ice_cream_bowl", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.0f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BERRYICECREAMBOWL));
+        }
+
+// Berry Ice Cream Cone
+
+        if (CONFIG.isBerryIceCreamConeEnabled) {
+            final Item BERRY_ICE_CREAM_CONE = registerItem("berry_ice_cream_cone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.9f).snack().statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BERRY_ICE_CREAM_CONE));
         }
 
 // Berry Ice Cream Stick
@@ -713,6 +748,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BUTTERSCOTCHCHIPSCOOKIE));
         }
 
+// Butterscotch Chip Ice Cream Cone
+
+        if (CONFIG.isButterscotchChipIceCreamConeEnabled) {
+            final Item BUTTERSCOTCH_CHIP_ICE_CREAM_CONE = registerItem("butterscotch_chip_ice_cream_cone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.2f).snack().statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BUTTERSCOTCH_CHIP_ICE_CREAM_CONE));
+        }
+
 // Butterscotch Chip Milkshake
 
         if (CONFIG.isButterscotchChipMilkshakeBottleEnabled) {
@@ -725,6 +767,15 @@ public class ModItems {
         if (CONFIG.isButterscotchChipMuffinEnabled) {
             final Item BUTTERSCOTCH_CHIP_MUFFIN = registerItem("butterscotch_chip_muffin", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.8f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 600, 0),1.0f).build()), true));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BUTTERSCOTCH_CHIP_MUFFIN));
+        }
+
+// Butterscotch Chip Waffle & Mini Waffle
+
+        if (CONFIG.isButterscotchChipWaffleBlockEnabled) {
+            final Item BUTTERSCOTCH_CHIP_MINI_WAFFLE = registerItem("butterscotch_chip_mini_waffle", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.7f).snack().statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BUTTERSCOTCH_CHIP_MINI_WAFFLE));
+            BUTTERSCOTCH_CHIP_WAFFLE = registerBlock("butterscotch_chip_waffle", new WaffleBlock(BUTTERSCOTCH_CHIP_MINI_WAFFLE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(BUTTERSCOTCH_CHIP_WAFFLE));
         }
 
 // Butter Dough
@@ -821,6 +872,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CARAMELCHIPSCOOKIE));
         }
 
+// Caramel Chip Ice Cream Cone
+
+        if (CONFIG.isCaramelChipIceCreamConeEnabled) {
+            final Item CARAMEL_CHIP_ICE_CREAM_CONE = registerItem("caramel_chip_ice_cream_cone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.2f).snack().statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CARAMEL_CHIP_ICE_CREAM_CONE));
+        }
+
 // Caramel Chip Milkshake
 
         if (CONFIG.isCaramelChipMilkshakeBottleEnabled) {
@@ -833,6 +891,15 @@ public class ModItems {
         if (CONFIG.isCaramelChipMuffinEnabled) {
             final Item CARAMEL_CHIP_MUFFIN = registerItem("caramel_chip_muffin", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.9f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 600, 0),1.0f).build()), true));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CARAMEL_CHIP_MUFFIN));
+        }
+
+// Caramel Chip Waffle & Mini Waffle
+
+        if (CONFIG.isCaramelChipWaffleBlockEnabled) {
+            final Item CARAMEL_CHIP_MINI_WAFFLE = registerItem("caramel_chip_mini_waffle", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.7f).snack().statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CARAMEL_CHIP_MINI_WAFFLE));
+            CARAMEL_CHIP_WAFFLE = registerBlock("caramel_chip_waffle", new WaffleBlock(CARAMEL_CHIP_MINI_WAFFLE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CARAMEL_CHIP_WAFFLE));
         }
 
 // Caramel Filled Chocolate
@@ -1302,6 +1369,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATECHIPS));
         }
 
+// Chocolate Chip Ice Cream Cone
+
+        if (CONFIG.isChocolateChipIceCreamConeEnabled) {
+            final Item CHOCOLATE_CHIP_ICE_CREAM_CONE = registerItem("chocolate_chip_ice_cream_cone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.2f).snack().statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATE_CHIP_ICE_CREAM_CONE));
+        }
+
 // Chocolate Chip Milkshake
 
         if (CONFIG.isChocolateChipMilkshakeBottleEnabled) {
@@ -1314,6 +1388,15 @@ public class ModItems {
         if (CONFIG.isChocolateChipMuffinEnabled) {
             final Item CHOCOLATE_CHIP_MUFFIN = registerItem("chocolate_chip_muffin", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.8f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 600, 0),1.0f).build()), true));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATE_CHIP_MUFFIN));
+        }
+
+// Chocolate Chip Waffle & Mini Waffle
+
+        if (CONFIG.isChocolateChipWaffleBlockEnabled) {
+            final Item CHOCOLATE_CHIP_MINI_WAFFLE = registerItem("chocolate_chip_mini_waffle", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.7f).snack().statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATE_CHIP_MINI_WAFFLE));
+            CHOCOLATE_CHIP_WAFFLE = registerBlock("chocolate_chip_waffle", new WaffleBlock(CHOCOLATE_CHIP_MINI_WAFFLE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATE_CHIP_WAFFLE));
         }
 
 // Chocolate Cookie
@@ -1396,6 +1479,13 @@ public class ModItems {
         if (CONFIG.isChocolateCreamFrostedCupcakeEnabled) {
             final Item CHOCOLATE_CREAM_FROSTED_CUPCAKE = registerItem("chocolate_cream_frosted_cupcake", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.2f).statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 1200, 0),1.0f).build()), true));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATE_CREAM_FROSTED_CUPCAKE));
+        }
+
+// Chocolate Cream Frosted Mini Waffle
+
+        if (CONFIG.isChocolateCreamFrostedMiniWaffleEnabled) {
+            final Item CHOCOLATE_CREAM_FROSTED_MINI_WAFFLE = registerItem("chocolate_cream_frosted_mini_waffle", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.7f).snack().statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 1200, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATE_CREAM_FROSTED_MINI_WAFFLE));
         }
 
 // Chocolate Donut Base
@@ -1544,6 +1634,13 @@ public class ModItems {
         if (CONFIG.isChocolateIceCreamBowlEnabled) {
             final Item CHOCOLATEICECREAMBOWL = registerItem("chocolate_ice_cream_bowl", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.2f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATEICECREAMBOWL));
+        }
+
+// Chocolate Ice Cream Cone
+
+        if (CONFIG.isChocolateIceCreamConeEnabled) {
+            final Item CHOCOLATE_ICE_CREAM_CONE = registerItem("chocolate_ice_cream_cone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.2f).snack().statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 1200, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHOCOLATE_ICE_CREAM_CONE));
         }
 
 // Chocolate Ice Cream Stick
@@ -1724,6 +1821,20 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHORUS_FRUIT_CREAM_FROSTED_CUPCAKE));
         }
 
+// Chorus Fruit Cream Frosted Mini Waffle
+
+        if (CONFIG.isChorusFruitCreamFrostedMiniWaffleEnabled) {
+            final Item CHORUS_FRUIT_CREAM_FROSTED_MINI_WAFFLE = registerItem("chorus_fruit_cream_frosted_mini_waffle", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(1.9f).snack().statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHORUS_FRUIT_CREAM_FROSTED_MINI_WAFFLE));
+        }
+
+// Chorus Fruit Cream Frosted Mini Waffle (Chorus Fruit)
+
+        if (CONFIG.isChorusFruitCreamFrostedMiniWaffleChorusFruitEnabled) {
+            final Item CHORUS_FRUIT_CREAM_FROSTED_MINI_WAFFLE_CHORUS_FRUIT = registerItem("chorus_fruit_cream_frosted_mini_waffle_chorus_fruit", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(1.9f).snack().statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 1200, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 1200, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHORUS_FRUIT_CREAM_FROSTED_MINI_WAFFLE_CHORUS_FRUIT));
+        }
+
 // Chorus Fruit Cream Frosted Sweet Roll
 
         if (CONFIG.isChorusFruitCreamFrostedSweetRollEnabled) {
@@ -1743,6 +1854,13 @@ public class ModItems {
         if (CONFIG.isChorusFruitIceCreamBowlEnabled) {
             final Item CHORUSFRUITICECREAMBOWL = registerItem("chorus_fruit_ice_cream_bowl", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(1.2f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHORUSFRUITICECREAMBOWL));
+        }
+
+// Chorus Fruit Ice Cream Cone
+
+        if (CONFIG.isChorusFruitIceCreamConeEnabled) {
+            final Item CHORUS_FRUIT_ICE_CREAM_CONE = registerItem("chorus_fruit_ice_cream_cone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.9f).snack().statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(CHORUS_FRUIT_ICE_CREAM_CONE));
         }
 
 // Chorus Fruit Ice Cream Stick
@@ -1998,11 +2116,27 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DARKCHOCOLATECHIPS));
         }
 
+// Dark Chocolate Chip Ice Cream Cone
+
+        if (CONFIG.isDarkChocolateChipIceCreamConeEnabled) {
+            final Item DARK_CHOCOLATE_CHIP_ICE_CREAM_CONE = registerItem("dark_chocolate_chip_ice_cream_cone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.2f).snack().statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 1200, 0),1.0f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DARK_CHOCOLATE_CHIP_ICE_CREAM_CONE));
+        }
+
 // Dark Chocolate Chip Muffin
 
         if (CONFIG.isDarkChocolateChipMuffinEnabled) {
             final Item DARK_CHOCOLATE_CHIP_MUFFIN = registerItem("dark_chocolate_chip_muffin", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.9f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 1200, 0),1.0f).build()), true));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DARK_CHOCOLATE_CHIP_MUFFIN));
+        }
+
+// Dark Chocolate Chip Waffle & Mini Waffle
+
+        if (CONFIG.isDarkChocolateChipWaffleBlockEnabled) {
+            final Item DARK_CHOCOLATE_CHIP_MINI_WAFFLE = registerItem("dark_chocolate_chip_mini_waffle", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.7f).snack().statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 1200, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DARK_CHOCOLATE_CHIP_MINI_WAFFLE));
+            DARK_CHOCOLATE_CHIP_WAFFLE = registerBlock("dark_chocolate_chip_waffle", new WaffleBlock(DARK_CHOCOLATE_CHIP_MINI_WAFFLE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(DARK_CHOCOLATE_CHIP_WAFFLE));
         }
 
 // Dark Chocolate Covered Marshmallow Stick
@@ -2313,6 +2447,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FROSTED_CUPCAKE));
         }
 
+// Frosted Mini Waffle
+
+        if (CONFIG.isFrostedMiniWaffleEnabled) {
+            final Item FROSTED_MINI_WAFFLE = registerItem("frosted_mini_waffle", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.8f).snack().statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(FROSTED_MINI_WAFFLE));
+        }
+
 // Gelatin
 
         if (CONFIG.isGelatinEnabled) {
@@ -2486,6 +2627,20 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GLOW_BERRY_CREAM_FROSTED_CUPCAKE));
         }
 
+// Glow Berry Cream Frosted Mini Waffle
+
+        if (CONFIG.isGlowBerryCreamFrostedMiniWaffleEnabled) {
+            final Item GLOW_BERRY_CREAM_FROSTED_MINI_WAFFLE = registerItem("glow_berry_cream_frosted_mini_waffle", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.9f).snack().statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GLOW_BERRY_CREAM_FROSTED_MINI_WAFFLE));
+        }
+
+// Glow Berry Cream Frosted Mini Waffle (Glow Berry)
+
+        if (CONFIG.isGlowBerryCreamFrostedMiniWaffleGlowBerryEnabled) {
+            final Item GLOW_BERRY_CREAM_FROSTED_MINI_WAFFLE_GLOW_BERRY = registerItem("glow_berry_cream_frosted_mini_waffle_glow_berry", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.9f).snack().statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 1200, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 1200, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GLOW_BERRY_CREAM_FROSTED_MINI_WAFFLE_GLOW_BERRY));
+        }
+
 // Glow Berry Cream Frosted Sweet Roll
 
         if (CONFIG.isGlowBerryCreamFrostedSweetRollEnabled) {
@@ -2519,6 +2674,13 @@ public class ModItems {
         if (CONFIG.isGlowBerryIceCreamBowlEnabled) {
             final Item GLOWBERRYICECREAMBOWL = registerItem("glow_berry_ice_cream_bowl", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.0f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GLOWBERRYICECREAMBOWL));
+        }
+
+// Glow Berry Ice Cream Cone
+
+        if (CONFIG.isGlowBerryIceCreamConeEnabled) {
+            final Item GLOW_BERRY_ICE_CREAM_CONE = registerItem("glow_berry_ice_cream_cone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.9f).snack().statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(GLOW_BERRY_ICE_CREAM_CONE));
         }
 
 // Glow Berry Ice Cream Stick
@@ -2803,6 +2965,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(HONEYED_CUPCAKE));
         }
 
+// Honeyed Mini Waffle
+
+        if (CONFIG.isHoneyedMiniWaffleEnabled) {
+            final Item HONEYED_MINI_WAFFLE = registerItem("honeyed_mini_waffle", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.8f).snack().statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(HONEYED_MINI_WAFFLE));
+        }
+
 // Honeyed Donut
 
         if (CONFIG.isHoneyedDonutEnabled) {
@@ -2878,6 +3047,13 @@ public class ModItems {
         if (CONFIG.isIceCreamBowlEnabled) {
             final Item ICECREAMBOWL = registerItem("ice_cream_bowl", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.3f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ICECREAMBOWL));
+        }
+
+// Ice Cream Cone
+
+        if (CONFIG.isIceCreamConeEnabled) {
+            final Item ICE_CREAM_CONE = registerItem("ice_cream_cone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(0.8f).snack().statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(ICE_CREAM_CONE));
         }
 
 // Ice Cream Sandwich
@@ -3097,6 +3273,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MELON_CREAM_FROSTED_CUPCAKE));
         }
 
+// Melon Cream Frosted Mini Waffle
+
+        if (CONFIG.isMelonCreamFrostedMiniWaffleEnabled) {
+            final Item MELON_CREAM_FROSTED_MINI_WAFFLE = registerItem("melon_cream_frosted_mini_waffle", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.6f).snack().statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MELON_CREAM_FROSTED_MINI_WAFFLE));
+        }
+
 // Melon Cream Frosted Sweet Roll
 
         if (CONFIG.isMelonCreamFrostedSweetRollEnabled) {
@@ -3109,6 +3292,13 @@ public class ModItems {
         if (CONFIG.isMelonIceCreamBowlEnabled) {
             final Item MELONICECREAMBOWL = registerItem("melon_ice_cream_bowl", new BowlFood(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.2f).build())));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MELONICECREAMBOWL));
+        }
+
+// Melon Ice Cream Cone
+
+        if (CONFIG.isMelonIceCreamConeEnabled) {
+            final Item MELON_ICE_CREAM_CONE = registerItem("melon_ice_cream_cone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.1f).snack().statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MELON_ICE_CREAM_CONE));
         }
 
 // Melon Ice Cream Stick
@@ -4217,6 +4407,13 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(TOFFEECHIPSCOOKIE));
         }
 
+// Toffee Chip Ice Cream Cone
+
+        if (CONFIG.isToffeeChipIceCreamConeEnabled) {
+            final Item TOFFEE_CHIP_ICE_CREAM_CONE = registerItem("toffee_chip_ice_cream_cone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.2f).snack().statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(TOFFEE_CHIP_ICE_CREAM_CONE));
+        }
+
 // Toffee Chip Milkshake
 
         if (CONFIG.isToffeeChipMilkshakeBottleEnabled) {
@@ -4229,6 +4426,15 @@ public class ModItems {
         if (CONFIG.isToffeeChipMuffinEnabled) {
             final Item TOFFEE_CHIP_MUFFIN = registerItem("toffee_chip_muffin", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.9f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 600, 0),1.0f).build()), true));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(TOFFEE_CHIP_MUFFIN));
+        }
+
+// Toffee Chip Waffle & Mini Waffle
+
+        if (CONFIG.isToffeeChipWaffleBlockEnabled) {
+            final Item TOFFEE_CHIP_MINI_WAFFLE = registerItem("toffee_chip_mini_waffle", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.7f).snack().statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(TOFFEE_CHIP_MINI_WAFFLE));
+            TOFFEE_CHIP_WAFFLE = registerBlock("toffee_chip_waffle", new WaffleBlock(TOFFEE_CHIP_MINI_WAFFLE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(TOFFEE_CHIP_WAFFLE));
         }
 
 // Toffee Fudge
@@ -4287,6 +4493,22 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(VINEGAR_BOTTLE));
         }
 
+// Waffle & Mini Waffle
+
+        if (CONFIG.isWaffleBlockEnabled) {
+            final Item MINI_WAFFLE = registerItem("mini_waffle", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.0f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(MINI_WAFFLE));
+            WAFFLE = registerBlock("waffle", new WaffleBlock(MINI_WAFFLE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(WAFFLE));
+        }
+
+// Waffle Cone
+
+        if (CONFIG.isWaffleConeEnabled) {
+            final Item WAFFLE_CONE = registerItem("waffle_cone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.0f).build())));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(WAFFLE_CONE));
+        }
+
 // White Chips Chocolate Cookie
 
         if (CONFIG.isWhiteChipsChocolateCookieEnabled) {
@@ -4315,11 +4537,27 @@ public class ModItems {
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(WHITECHOCOLATECHIPS));
         }
 
+// White Chocolate Chip Ice Cream Cone
+
+        if (CONFIG.isWhiteChocolateChipIceCreamConeEnabled) {
+            final Item WHITE_CHOCOLATE_CHIP_ICE_CREAM_CONE = registerItem("white_chocolate_chip_ice_cream_cone", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2).saturationModifier(1.2f).snack().statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 1200, 0),1.0f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 600, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(WHITE_CHOCOLATE_CHIP_ICE_CREAM_CONE));
+        }
+
 // White Chocolate Chip Muffin
 
         if (CONFIG.isWhiteChocolateChipMuffinEnabled) {
             final Item WHITE_CHOCOLATE_CHIP_MUFFIN = registerItem("white_chocolate_chip_muffin", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.9f).statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 1200, 0),1.0f).statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 600, 0),1.0f).build()), true));
             ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(WHITE_CHOCOLATE_CHIP_MUFFIN));
+        }
+
+// White Chocolate Chip Waffle & Mini Waffle
+
+        if (CONFIG.isWhiteChocolateChipWaffleBlockEnabled) {
+            final Item WHITE_CHOCOLATE_CHIP_MINI_WAFFLE = registerItem("white_chocolate_chip_mini_waffle", new ConsumableItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3).saturationModifier(1.7f).snack().statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), 1200, 0),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0),1.0f).build()), true));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(WHITE_CHOCOLATE_CHIP_MINI_WAFFLE));
+            WHITE_CHOCOLATE_CHIP_WAFFLE = registerBlock("white_chocolate_chip_waffle", new WaffleBlock(WHITE_CHOCOLATE_CHIP_MINI_WAFFLE));
+            ItemGroupEvents.modifyEntriesEvent(CreateFood.GROUP).register(entries -> entries.add(WHITE_CHOCOLATE_CHIP_WAFFLE));
         }
 
 // White Chocolate Covered Marshmallow Stick

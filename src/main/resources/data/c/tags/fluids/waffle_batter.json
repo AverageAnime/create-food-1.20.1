@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "createfood:flowing_waffle_batter",
+            "required": false
+        },
+        {
+            "id": "createfood:waffle_batter",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:apple_cream_frosting",
+                "c:mini_waffle",
+                "c:apple_cream_frosted_mini_waffle"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " 1 ",
+        " 2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:apple_cream_frosting"
+        },
+        "2": {
+            "tag": "c:mini_waffle"
+        }
+    },
+    "result": {
+        "item": "createfood:apple_cream_frosted_mini_waffle"
+    }
+}

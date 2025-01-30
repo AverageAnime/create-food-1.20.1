@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:butterscotch_chip_ice_cream_cone",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:waffle_batter_bucket"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:milk_bucket"
+        },
+        {
+            "tag": "c:sugar"
+        },
+        {
+            "tag": "c:flour"
+        },
+        {
+            "tag": "c:eggs"
+        },
+        {
+            "tag": "c:butter"
+        }
+    ],
+    "result": {
+        "item": "createfood:waffle_batter_bucket"
+    }
+}

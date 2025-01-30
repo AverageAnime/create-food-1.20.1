@@ -1,0 +1,33 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:mini_waffle",
+                "c:melon_cream_frosting_bucket",
+                "c:melon_cream_frosted_mini_waffle"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:mini_waffle"
+        },
+        {
+            "amount": 20250,
+            "fluidTag": "c:melon_cream_frosting"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:melon_cream_frosted_mini_waffle"
+        }
+    ]
+}

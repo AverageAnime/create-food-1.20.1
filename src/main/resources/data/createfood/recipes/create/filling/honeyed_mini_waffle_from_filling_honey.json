@@ -1,0 +1,32 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:mini_waffle",
+                "c:honeyed_mini_waffle"
+            ]
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "c:mini_waffle"
+        },
+        {
+            "amount": 20250,
+            "fluid": "create:honey"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:honeyed_mini_waffle"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ice_cream_cone",
+                "c:butterscotch_chips",
+                "c:butterscotch_chip_ice_cream_cone"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:ice_cream_cone"
+        },
+        {
+            "tag": "c:butterscotch_chips"
+        }
+    ],
+    "result": {
+        "item": "createfood:butterscotch_chip_ice_cream_cone"
+    }
+}

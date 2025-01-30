@@ -2,6 +2,58 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:butterscotch_chip_ice_cream_cone",
+      "required": false
+    },
+    {
+      "id": "createfood:caramel_chip_ice_cream_cone",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_chip_ice_cream_cone",
+      "required": false
+    },
+    {
+      "id": "createfood:toffee_chip_ice_cream_cone",
+      "required": false
+    },
+    {
+      "id": "createfood:dark_chocolate_chip_ice_cream_cone",
+      "required": false
+    },
+    {
+      "id": "createfood:white_chocolate_chip_ice_cream_cone",
+      "required": false
+    },
+    {
+      "id": "createfood:melon_ice_cream_cone",
+      "required": false
+    },
+    {
+      "id": "createfood:glow_berry_ice_cream_cone",
+      "required": false
+    },
+    {
+      "id": "createfood:chorus_fruit_ice_cream_cone",
+      "required": false
+    },
+    {
+      "id": "createfood:chocolate_ice_cream_cone",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_ice_cream_cone",
+      "required": false
+    },
+    {
+      "id": "createfood:apple_ice_cream_cone",
+      "required": false
+    },
+    {
+      "id": "createfood:ice_cream_cone",
+      "required": false
+    },
+    {
       "id": "createfood:ice_cream_bowl",
       "required": false
     },

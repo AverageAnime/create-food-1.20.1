@@ -90,7 +90,10 @@
       ],
       "conditions": [
         {
-          "condition": "minecraft:survives_explosion"
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/knives"
+          }
         },
         {
           "condition": "minecraft:block_state_property",
@@ -102,7 +105,7 @@
       ]
     },
     {
-      "name": "sausage_mushroom_pizza_slice2",
+      "name": "sausage_mushroom_pizza_slice3",
       "rolls": 1,
       "entries": [
         {
@@ -112,10 +115,7 @@
       ],
       "conditions": [
         {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "tag": "c:tools/knives"
-          }
+          "condition": "minecraft:survives_explosion"
         },
         {
           "condition": "minecraft:block_state_property",

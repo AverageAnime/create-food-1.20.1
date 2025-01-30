@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "createfood:flowing_waffle_batter_filling",
+      "required": false
+    },
+    {
+      "id": "createfood:waffle_batter",
+      "required": false
+    },
+    {
       "id": "createfood:flowing_chorus_fruit_pie_filling",
       "required": false
     },

@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ice_cream_cone",
+                "c:chocolate_chips",
+                "c:chocolate_chip_ice_cream_cone"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:ice_cream_cone"
+        },
+        "2": {
+            "tag": "c:chocolate_chips"
+        }
+    },
+    "result": {
+        "item": "createfood:chocolate_chip_ice_cream_cone"
+    }
+}

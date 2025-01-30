@@ -1,0 +1,80 @@
+{
+    "credit": "Made with Blockbench",
+    "textures": {
+        "particle": "createfood:block/toffee_chip_waffle_top",
+        "inner": "createfood:block/waffle_inner",
+        "side": "createfood:block/waffle_side",
+        "top": "createfood:block/toffee_chip_waffle_top"
+    },
+    "elements": [
+        {
+            "from": [
+                8,
+                0,
+                2
+            ],
+            "to": [
+                14,
+                2,
+                8
+            ],
+            "faces": {
+                "north": {
+                    "uv": [
+                        2,
+                        12,
+                        8,
+                        16
+                    ],
+                    "texture": "#side"
+                },
+                "east": {
+                    "uv": [
+                        8,
+                        12,
+                        14,
+                        16
+                    ],
+                    "texture": "#side"
+                },
+                "south": {
+                    "uv": [
+                        8,
+                        12,
+                        14,
+                        16
+                    ],
+                    "texture": "#inner"
+                },
+                "west": {
+                    "uv": [
+                        2,
+                        12,
+                        8,
+                        16
+                    ],
+                    "texture": "#inner"
+                },
+                "up": {
+                    "uv": [
+                        8,
+                        2,
+                        14,
+                        8
+                    ],
+                    "texture": "#top"
+                },
+                "down": {
+                    "uv": [
+                        2,
+                        8,
+                        14,
+                        14
+                    ],
+                    "texture": "#top",
+                    "cullface": "down"
+                }
+            }
+        }
+    ]
+}

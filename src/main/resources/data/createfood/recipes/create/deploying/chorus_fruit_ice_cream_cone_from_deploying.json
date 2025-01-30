@@ -1,0 +1,32 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:waffle_cone",
+                "c:chorus_fruit_ice_cream_stick",
+                "c:chorus_fruit_ice_cream_cone"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:waffle_cone"
+        },
+        {
+            "tag": "c:chorus_fruit_ice_cream_stick"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:chorus_fruit_ice_cream_cone"
+        }
+    ]
+}

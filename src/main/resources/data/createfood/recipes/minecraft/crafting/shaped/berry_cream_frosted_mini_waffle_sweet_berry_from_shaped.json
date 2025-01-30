@@ -1,0 +1,27 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:berry_cream_frosted_mini_waffle",
+                "c:berry_cream_frosted_mini_waffle_sweet_berry"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " 1 ",
+        " 2 "
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:sweet_berries"
+        },
+        "2": {
+            "tag": "c:berry_cream_frosted_mini_waffle"
+        }
+    },
+    "result": {
+        "item": "createfood:berry_cream_frosted_mini_waffle_sweet_berry"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createfood:block/waffle_batter_block"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "createfood",
-	"version": "1.1.6",
+	"version": "1.1.8",
 	"name": "Create: Food",
 	"description": "Create: Food is an add-on for Farmer's Delight based on expanding food content found in Create, Farmer's Delight, and vanilla MC.",
 	"authors": [

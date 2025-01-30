@@ -1,0 +1,24 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:waffle_cone",
+                "c:apple_ice_cream_stick",
+                "c:apple_ice_cream_cone"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:waffle_cone"
+        },
+        {
+            "tag": "c:apple_ice_cream_stick"
+        }
+    ],
+    "result": {
+        "item": "createfood:apple_ice_cream_cone"
+    }
+}

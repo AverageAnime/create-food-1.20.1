@@ -1,0 +1,28 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:chorus_fruit_ice_cream_stick",
+                "c:waffle_cone",
+                "c:chorus_fruit_ice_cream_cone"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "c:chorus_fruit_ice_cream_stick"
+        },
+        "2": {
+            "tag": "c:waffle_cone"
+        }
+    },
+    "result": {
+        "item": "createfood:chorus_fruit_ice_cream_cone"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:ice_cream_cone",
+                "c:chocolate_chips",
+                "c:chocolate_chip_ice_cream_cone"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "tag": "c:ice_cream_cone"
+        },
+        {
+            "tag": "c:chocolate_chips"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:chocolate_chip_ice_cream_cone"
+        }
+    ]
+}

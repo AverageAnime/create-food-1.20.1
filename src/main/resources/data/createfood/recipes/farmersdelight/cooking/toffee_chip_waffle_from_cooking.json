@@ -1,0 +1,33 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "farmersdelight"
+            ]
+        },
+        {
+            "condition": "fabric:tags_populated",
+            "values": [
+                "c:waffle_batter_bucket",
+                "c:toffee_chip_waffle"
+            ]
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "cookingtime": 100,
+    "experience": 0.75,
+    "ingredients": [
+        {
+            "tag": "c:waffle_batter_bucket"
+        },
+        {
+            "count": 8,
+            "tag": "c:toffee_chips"
+        }
+    ],
+    "result": {
+        "count": 2,
+        "item": "createfood:toffee_chip_waffle"
+    }
+}
